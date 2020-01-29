@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Joy Tables -->
+  <AJO_RimColony.label>リムコロニー</AJO_RimColony.label>
+  <AJO_RimColony.description>リムコロニーは、辺境の惑星に不時着した後のコロニーの構築と維持を行うゲームです。 変な感性を持つ何人かの放浪トレーダー達が持ってきたものです。</AJO_RimColony.description>
+  <Blueprint_Install_AJO_RimColony.label>リムコロニー(移動)</Blueprint_Install_AJO_RimColony.label>
+  <!-- Furniture -->
+  <AJO_Dartboard.label>ダーツボード</AJO_Dartboard.label>
+  <AJO_Dartboard.description>プレイヤーは遠くからダーツを投げ的に当てます。リラックスと同時に手と目も鍛えられます。</AJO_Dartboard.description>
+  <Blueprint_Install_AJO_Dartboard.label>ダーツボード(移動)</Blueprint_Install_AJO_Dartboard.label>
+  <Blueprint_AJO_Dartboard.label>ダーツボード(設計)</Blueprint_AJO_Dartboard.label>
+  <Frame_AJO_Dartboard.label>ダーツボード(施工)</Frame_AJO_Dartboard.label>
+  <Frame_AJO_Dartboard.description>プレイヤーは遠くからダーツを投げ的に当てます。リラックスと同時に手と目も鍛えられます。</Frame_AJO_Dartboard.description>
+</LanguageData>

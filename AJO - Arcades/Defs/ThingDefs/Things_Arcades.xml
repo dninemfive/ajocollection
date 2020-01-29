@@ -1,0 +1,483 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="ArcadeBase" ParentName="FurnitureBase" Abstract="True">
+		<thingClass>AdditionalJoyObjects.Building_Arcade</thingClass>
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<damageData>
+				<rect>(0.3,0.3,0.4,0.4)</rect>
+			</damageData>
+		</graphicData>
+		<altitudeLayer>Building</altitudeLayer>
+		<rotatable>true</rotatable>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<statBases>
+			<MaxHitPoints>150</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+			<MarketValue>800</MarketValue>
+			<Mass>60</Mass>
+			<Beauty>10</Beauty>
+			<JoyGainFactor>1.2</JoyGainFactor>
+		</statBases>
+		<designationCategory />
+		<size>(1,1)</size>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<passability>PassThroughOnly</passability>
+		<canOverlapZones>false</canOverlapZones>
+		<pathCost>150</pathCost>
+		<!-- This is to strictly define what is dropped when deconstructed, Allowing for the return of cartridges -->
+		<!-- broken in vanilla B19, fixed with Deconstruct Return Fix -->
+		<resourcesFractionWhenDeconstructed>1.0</resourcesFractionWhenDeconstructed>
+		<costList>
+			<Steel>45</Steel>
+		</costList>
+		<thingCategories>
+			<li>AJO_Arcades</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+			<li>AJO_Joy</li>
+		</tradeTags>
+		<tickerType>Normal</tickerType>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>200</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li>
+				<compClass>AdditionalJoyObjects.CompArcadeStandbyPower</compClass>
+			</li>
+		</comps>
+	</ThingDef>
+	
+	<ThingDef Name="AJOArcadeDexBase" ParentName="ArcadeBase" Abstract="True">
+		<building>
+		  <joyKind>Gaming_Dexterity</joyKind>
+		</building>
+	</ThingDef>
+	
+	<ThingDef Name="AJOArcadeCerBase" ParentName="ArcadeBase" Abstract="True">
+		<building>
+		  <joyKind>Gaming_Cerebral</joyKind>
+		</building>
+	</ThingDef>
+
+	<ThingDef Name="CartBase" ParentName="ResourceBase" Abstract="True">
+		<description>A game cartridge extracted from an arcade cabinet. Can be installed in an empty arcade cabinet or duplicated at a machining table.</description>
+		<graphicData>
+			<texPath>Cupro/Item/Material/ArcadeCartridge</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+			<onGroundRandomRotateAngle>35</onGroundRandomRotateAngle>
+		</graphicData>
+		<stackLimit>25</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>100</MarketValue>
+			<Mass>0.2</Mass>
+			<MaxHitPoints>80</MaxHitPoints>
+		</statBases>
+		<thingCategories>
+			<li>AJO_ArcadeCarts</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+			<li>AJO_JoyItem</li>
+		</tradeTags>
+	</ThingDef>
+
+
+	<!-- ========================== Empty Arcade ============================== -->
+
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AJO_ArcadeEmpty</defName>
+		<label>empty arcade</label>
+		<description>An arcade that has no cartridge installed. Install a cartridge at an arcade construction table.</description>
+		<graphicData>
+			<texPath>Cupro/Item/Material/EmptyArcade</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<stackLimit>1</stackLimit>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>500</MarketValue>
+			<Mass>59.8</Mass>
+			<MaxHitPoints>150</MaxHitPoints>
+		</statBases>
+		<thingCategories>
+			<li>AJO_Arcades</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+			<li>AJO_JoyItem</li>
+		</tradeTags>
+	</ThingDef>
+
+
+	<!-- ========================== Arcade Construction ============================== -->
+
+
+	<ThingDef ParentName="BenchBase">
+		<defName>AJO_TableArcadeConstruction</defName>
+		<label>arcade construction table</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>A work station for assembling arcades, as well as copying cartridge data.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Station/TableArcadeConstruction/TableArcadeConstruction</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3.5,1.5)</drawSize>
+			<damageData>
+				<cornerTL>Damage/Corner</cornerTL>
+				<cornerTR>Damage/Corner</cornerTR>
+				<cornerBL>Damage/Corner</cornerBL>
+				<cornerBR>Damage/Corner</cornerBR>
+			</damageData>
+		</graphicData>
+		<costList>
+			<Steel>150</Steel>
+			<ComponentIndustrial>1</ComponentIndustrial>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>True</useHitPoints>
+		<statBases>
+			<WorkToBuild>2000</WorkToBuild>
+			<MaxHitPoints>180</MaxHitPoints>
+			<Flammability>0.1</Flammability>
+			<Cleanliness>-1</Cleanliness>
+		</statBases>
+		<size>(3,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<canOverlapZones>false</canOverlapZones>
+		<pathCost>70</pathCost>
+		<hasInteractionCell>True</hasInteractionCell>
+		<interactionCellOffset>(0,0,-1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<comps>
+			<li Class="CompProperties_Power">
+				<compClass>CompPowerTrader</compClass>
+				<shortCircuitInRain>true</shortCircuitInRain>
+				<basePowerConsumption>50</basePowerConsumption>
+			</li>
+			<li Class="CompProperties_Flickable"/>
+			<li Class="CompProperties_Glower">
+				<glowRadius>1</glowRadius>
+				<glowColor>(73,123,138,0)</glowColor>
+			</li>
+			<li Class="CompProperties_AffectedByFacilities">
+				<linkableFacilities>
+					<li>ToolCabinet</li>
+				</linkableFacilities>
+			</li>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+		</comps>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workSpeedPenaltyOutdoors>true</workSpeedPenaltyOutdoors>
+			<workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
+		</building>
+		<constructEffect>ConstructMetal</constructEffect>
+		<researchPrerequisites>
+			<li>AJO_ArcadeConstruction</li>
+		</researchPrerequisites>
+		<placeWorkers>
+			<li>PlaceWorker_ShowFacilitiesConnections</li>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+		</placeWorkers>
+	</ThingDef>
+
+
+	<!-- ========================== Inheritors ============================== -->
+
+
+	<ThingDef ParentName="CartBase">
+		<defName>AJO_CartHomebrew</defName>
+		<label>homebrew cartridge</label>
+		<description>A simple game made by colonists which provides joy but no experience.</description>
+	</ThingDef>
+	<ThingDef ParentName="ArcadeBase">
+		<defName>AJO_ArcadeHomebrew</defName>
+		<label>homebrew arcade cabinet</label>
+		<description>A simple game made by colonists which provides joy.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/Homebrew/Homebrew</texPath>
+		</graphicData>
+		<costList>
+			<AJO_CartHomebrew>1</AJO_CartHomebrew>
+		</costList>
+		<killedLeavings>
+			<AJO_CartHomebrew>1</AJO_CartHomebrew>
+		</killedLeavings>
+		<building>
+			<joyKind>AJO_Passive</joyKind>
+		</building>
+	</ThingDef>
+	
+	<ThingDef ParentName="CartBase">
+		<defName>AJO_CartRS</defName>
+		<label>Rum Swirled cartridge</label>
+		<description>A game about sailors shipwrecked on an island with plenty of rum, but no shelter.\n\nHelps players learn how to construct buildings more efficiently.</description>
+	</ThingDef>
+	<ThingDef ParentName="AJOArcadeCerBase">
+		<defName>AJO_ArcadeRS</defName>
+		<label>Rum Swirled cabinet</label>
+		<description>A game about sailors shipwrecked on an island with plenty of rum, but no shelter.\n\nHelps players learn how to construct buildings more efficiently.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/RumSwirled/RumSwirled</texPath>
+		</graphicData>
+		<costList>
+			<AJO_CartRS>1</AJO_CartRS>
+		</costList>
+		<killedLeavings>
+			<AJO_CartRS>1</AJO_CartRS>
+		</killedLeavings>
+	</ThingDef>
+
+
+	<ThingDef ParentName="CartBase">
+		<defName>AJO_CartMC</defName>
+		<label>MintCraft cartridge</label>
+		<description>A game where the entire world can be shaped by the player, who crafts many things out of mint leaves. Don't ask how.\n\nEither way it lets you pick up a bit of crafting knowledge.</description>
+	</ThingDef>
+	<ThingDef ParentName="AJOArcadeDexBase">
+		<defName>AJO_ArcadeMC</defName>
+		<label>MintCraft cabinet</label>
+		<description>A game where the entire world can be shaped by the player, who crafts many things out of mint leaves. Don't ask how.\n\nEither way it lets you pick up a bit of crafting knowledge.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/MintCraft/MintCraft</texPath>
+		</graphicData>
+		<costList>
+			<AJO_CartMC>1</AJO_CartMC>
+		</costList>
+		<killedLeavings>
+			<AJO_CartMC>1</AJO_CartMC>
+		</killedLeavings>
+	</ThingDef>
+
+
+	<ThingDef ParentName="CartBase">
+		<defName>AJO_CartHL</defName>
+		<label>Halva Life cartridge</label>
+		<description>In Halva Life, the player plays as Gordon, the red hot pastry chef who must reign in his kitchen before it becomes a total nightmare.\n\nTeaches players about positioning and tactics so they can shoot more accurately.</description>
+	</ThingDef>
+	<ThingDef ParentName="AJOArcadeDexBase">
+		<defName>AJO_ArcadeHL</defName>
+		<label>Halva Life cabinet</label>
+		<description>In Halva Life, the player plays as Gordon, the red hot pastry chef who must reign in his kitchen before it becomes a total nightmare.\n\nTeaches players about positioning and tactics so they can shoot more accurately.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/HalvaLife/HalvaLife</texPath>
+		</graphicData>
+		<costList>
+			<AJO_CartHL>1</AJO_CartHL>
+		</costList>
+		<killedLeavings>
+			<AJO_CartHL>1</AJO_CartHL>
+		</killedLeavings>
+	</ThingDef>
+
+
+	<ThingDef ParentName="CartBase">
+		<defName>AJO_CartES</defName>
+		<label>Elder Scones cartridge</label>
+		<description>It's just you, a butter knife, and a plate full of week old scones you must defend from ravenous townspeople.\n\nSuccessfully doing so means you are highly proficient with melee weapons.</description>
+	</ThingDef>
+	<ThingDef ParentName="AJOArcadeDexBase">
+		<defName>AJO_ArcadeES</defName>
+		<label>Elder Scones cabinet</label>
+		<description>It's just you, a butter knife, and a plate full of week old scones you must defend from ravenous townspeople.\n\nSuccessfully doing so means you are highly proficient with melee weapons.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/ElderScones/ElderScones</texPath>
+		</graphicData>
+		<costList>
+			<AJO_CartES>1</AJO_CartES>
+		</costList>
+		<killedLeavings>
+			<AJO_CartES>1</AJO_CartES>
+		</killedLeavings>
+	</ThingDef>
+
+
+	<ThingDef ParentName="CartBase">
+		<defName>AJO_CartBG</defName>
+		<label>Baguettris cartridge</label>
+		<description>Oh no! A baguette supply ship didn't close it's hatch correctly! Quickly stack the falling baguettes for loading onto another ship!\n\nHelps players think more quickly, improving their abilities in intellectual pursuits.</description>
+	</ThingDef>
+	<ThingDef ParentName="AJOArcadeCerBase">
+		<defName>AJO_ArcadeBG</defName>
+		<label>Baguettris cabinet</label>
+		<description>Oh no! A baguette supply ship didn't close it's hatch correctly! Quickly stack the falling baguettes for loading onto another ship!\n\nHelps players think more quickly, improving their abilities in intellectual pursuits.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/Baguettris/Baguettris</texPath>
+		</graphicData>
+		<costList>
+			<AJO_CartBG>1</AJO_CartBG>
+		</costList>
+		<killedLeavings>
+			<AJO_CartBG>1</AJO_CartBG>
+		</killedLeavings>
+	</ThingDef>
+
+
+	<ThingDef ParentName="CartBase">
+		<defName>AJO_CartCB</defName>
+		<label>Cooking Baba cartridge</label>
+		<description>Join Hakase Baba in the kitchen as he teaches you legendary cooking techniques. Then play challenge mode and compete for the title of Best Chef in the System!</description>
+	</ThingDef>
+	<ThingDef ParentName="AJOArcadeCerBase">
+		<defName>AJO_ArcadeCB</defName>
+		<label>Cooking Baba cabinet</label>
+		<description>Join Hakase Baba in the kitchen as he teaches you legendary cooking techniques. Then play challenge mode and compete for the title of Best Chef in the System!</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/CookingBaba/CookingBaba</texPath>
+		</graphicData>
+		<costList>
+			<AJO_CartCB>1</AJO_CartCB>
+		</costList>
+		<killedLeavings>
+			<AJO_CartCB>1</AJO_CartCB>
+		</killedLeavings>
+	</ThingDef>
+
+
+	<ThingDef ParentName="CartBase">
+		<defName>AJO_CartPS</defName>
+		<label>Plants Vs. Salamis cartridge</label>
+		<description>A Salami mothership aproaches on an intercept vector; they mean to board you! Armed only with genetically modified super plants, you must grow your defenses and keep the ships cargo safe!\n\nTeaches techniques for growing plants quickly.</description>
+	</ThingDef>
+	<ThingDef ParentName="AJOArcadeCerBase">
+		<defName>AJO_ArcadePS</defName>
+		<label>Plants Vs. Salamis cabinet</label>
+		<description>A Salami mothership aproaches on an intercept vector; they mean to board you! Armed only with genetically modified super plants, you must grow your defenses and keep the ships cargo safe!\n\nTeaches techniques for growing plants quickly.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/PlantsVSalamis/PlantsVSalamis</texPath>
+		</graphicData>
+		<costList>
+			<AJO_CartPS>1</AJO_CartPS>
+		</costList>
+		<killedLeavings>
+			<AJO_CartPS>1</AJO_CartPS>
+		</killedLeavings>
+	</ThingDef>
+
+
+	<ThingDef ParentName="CartBase">
+		<defName>AJO_CartPK</defName>
+		<label>Psycho Knots cartridge </label>
+		<description>The artisanal pizzeria championships are back for their 72nd tournament, can you out-bake your way to the top?\n\nDecorating impressive pizzas is the mark of a true artist.</description>
+	</ThingDef>
+	<ThingDef ParentName="AJOArcadeDexBase">
+		<defName>AJO_ArcadePK</defName>
+		<label>Psycho Knots cabinet</label>
+		<description>The artisanal pizzeria championships are back for their 72nd tournament, can you out-bake your way to the top?\n\nDecorating impressive pizzas is the mark of a true artist.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/PsychoKnots/PsychoKnots</texPath>
+		</graphicData>
+		<costList>
+			<AJO_CartPK>1</AJO_CartPK>
+		</costList>
+		<killedLeavings>
+			<AJO_CartPK>1</AJO_CartPK>
+		</killedLeavings>
+	</ThingDef>
+
+
+	<ThingDef ParentName="CartBase">
+		<defName>AJO_CartSP</defName>
+		<label>Speltunky cartridge</label>
+		<description>One day, a sinkhole collapses in the middle of your dinkel wheat farm, sending you plummeting into a massive underground cave network. Your only hope for escape is to mine your way out, but danger lurks around every corner.\n\nLearning about cave collapses helps players mine more effectively.</description>
+	</ThingDef>
+	<ThingDef ParentName="AJOArcadeDexBase">
+		<defName>AJO_ArcadeSP</defName>
+		<label>Speltunky cabinet</label>
+		<description>One day, a sinkhole collapses in the middle of your dinkel wheat farm, sending you plummeting into a massive underground cave network. Your only hope for escape is to mine your way out, but danger lurks around every corner.\n\nLearning about cave collapses helps players mine more effectively.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/Speltunky/Speltunky</texPath>
+		</graphicData>
+		<costList>
+			<AJO_CartSP>1</AJO_CartSP>
+		</costList>
+		<killedLeavings>
+			<AJO_CartSP>1</AJO_CartSP>
+		</killedLeavings>
+	</ThingDef>
+
+
+	<ThingDef ParentName="CartBase">
+		<defName>AJO_CartTZ</defName>
+		<label>The Zimz cartridge</label>
+		<description>In The Zimz, you play a game that simulates people and watch as they sometimes play games that simulate people.\n\nWatching people interact with each other makes the player more socially aware.</description>
+	</ThingDef>
+	<ThingDef ParentName="ArcadeBase">
+		<defName>AJO_ArcadeTZ</defName>
+		<label>The Zimz cabinet</label>
+		<description>In The Zimz, you play a game that simulates people and watch as they sometimes play games that simulate people.\n\nWatching people interact with each other makes the player more socially aware.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/TheZimz/TheZimz</texPath>
+		</graphicData>
+		<costList>
+			<AJO_CartTZ>1</AJO_CartTZ>
+		</costList>
+		<killedLeavings>
+			<AJO_CartTZ>1</AJO_CartTZ>
+		</killedLeavings>
+		<building>
+			<joyKind>Social</joyKind>
+		</building>
+	</ThingDef>
+
+
+	<ThingDef ParentName="CartBase">
+		<defName>AJO_CartTV</defName>
+		<label>Trauma Vendor cartridge</label>
+		<description>It's 14:00, time to drive the truck around and see who needs medical treatment. Just another day on a warring urbworld.\n\nPlaying as a paramedic helps with knowledge of first aid.</description>
+	</ThingDef>
+	<ThingDef ParentName="AJOArcadeDexBase">
+		<defName>AJO_ArcadeTV</defName>
+		<label>Trauma Vendor cabinet</label>
+		<description>It's 14:00, time to drive the truck around and see who needs medical treatment. Just another day on a warring urbworld.\n\nPlaying as a paramedic helps with knowledge of first aid.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/TraumaVendor/TraumaVendor</texPath>
+		</graphicData>
+		<costList>
+			<AJO_CartTV>1</AJO_CartTV>
+		</costList>
+		<killedLeavings>
+			<AJO_CartTV>1</AJO_CartTV>
+		</killedLeavings>
+	</ThingDef>
+
+
+	<ThingDef ParentName="CartBase">
+		<defName>AJO_CartGD</defName>
+		<label>Glutendogs cartridge</label>
+		<description>Can you tame your new pets before they get flour all over the bakery? Why did you even bring dogs to a bakery?\n\nTrying to understand this helps teach how to interact with animals.</description>
+	</ThingDef>
+	<ThingDef ParentName="ArcadeBase">
+		<defName>AJO_ArcadeGD</defName>
+		<label>Glutendogs cabinet</label>
+		<description>Can you tame your new pets before they get flour all over the bakery? Why did you even bring dogs to a bakery?\n\nTrying to understand this helps teach how to interact with animals.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/Glutendogs/Glutendogs</texPath>
+		</graphicData>
+		<costList>
+			<AJO_CartGD>1</AJO_CartGD>
+		</costList>
+		<killedLeavings>
+			<AJO_CartGD>1</AJO_CartGD>
+		</killedLeavings>
+		<building>
+			<joyKind>AJO_Passive</joyKind>
+		</building>
+	</ThingDef>
+
+</Defs>

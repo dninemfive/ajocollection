@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="AJO_ThingInsertion" ParentName="RoughPlantBase">
+		<defName>AJO_RainbowPetals</defName>
+		<label>rainbow petals</label>
+		<description>A small bundle of multi-colored flower petals.</description>
+		<graphicData>
+			<graphicClass>Graphic_StackCount</graphicClass>
+			<texPath>Cupro/Item/Material/RainbowPetals</texPath>
+		</graphicData>
+		<statBases>
+			<MarketValue>2</MarketValue>
+			<Mass>0.03</Mass>
+		</statBases>
+		<stackLimit>100</stackLimit>
+		<thingCategories>
+			<li>PlantMatter</li>
+		</thingCategories>
+		<comps>
+      <li Class="CompProperties_Rottable">
+        <daysToRotStart>30</daysToRotStart>
+        <rotDestroys>true</rotDestroys>
+      </li>
+    </comps>
+	</ThingDef>
+
+</Defs>

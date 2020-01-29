@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef Name="DartBase" ParentName="MoteBase" Abstract="True">
+		<altitudeLayer>Projectile</altitudeLayer>
+		<mote>
+      <collide>true</collide>
+      <solidTime>2.0</solidTime>
+      <fadeOutTime>0.01</fadeOutTime>
+		</mote>
+	</ThingDef>
+
+
+	<ThingDef ParentName="DartBase">
+		<defName>AJO_Mote_RedDart</defName>
+		<graphicData>
+			<texPath>Cupro/Object/Rendered/Dart/RedDart</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="DartBase">
+		<defName>AJO_Mote_GreenDart</defName>
+		<graphicData>
+			<texPath>Cupro/Object/Rendered/Dart/GreenDart</texPath>
+		</graphicData>
+	</ThingDef>
+
+	<ThingDef ParentName="DartBase">
+		<defName>AJO_Mote_BlueDart</defName>
+		<graphicData>
+			<texPath>Cupro/Object/Rendered/Dart/BlueDart</texPath>
+		</graphicData>
+	</ThingDef>
+
+</Defs>

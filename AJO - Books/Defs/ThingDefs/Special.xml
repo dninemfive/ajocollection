@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>AJO_UnfinishedBook</defName>
+		<label>Unfinished book</label>
+		<graphicData>
+			<texPath>Cupro/Item/Unfinished/UnfinishedBook</texPath>
+		</graphicData>
+		<stuffCategories>
+			<li>AJO_BlankBook</li>
+		</stuffCategories>
+	</ThingDef>
+
+</Defs>

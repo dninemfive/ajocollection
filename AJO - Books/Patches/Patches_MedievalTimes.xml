@@ -1,0 +1,59 @@
+<Patch>
+    <!-- IF Medieval Times is installed: Change_by_doing_what_is_stated -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Medieval Times</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationInsert">
+                    <xpath>/Defs/RecipeDef[@Name = "AJO_RecipeDefInsertion"]</xpath>
+                    <value>
+                        <RecipeDef>
+                            <defName>AJO_CollateMedTimesGraphicNovel</defName>
+                            <label>collate graphic novels</label>
+                            <description>Group graphic novels together for making bookcases. Graphic novels are not as long as written books, so more are required to fill a bookcase.</description>
+                            <jobString>Collating.</jobString>
+                            <workAmount>50</workAmount>
+                            <workSpeedStat>WorkSpeedGlobal</workSpeedStat>
+                            <workSkill>Artistic</workSkill>
+                            <ingredients>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>MedTimes_GraphicNovel</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>13</count>
+                                </li>
+                            </ingredients>
+                            <fixedIngredientFilter>
+                                <thingDefs>
+                                    <li>MedTimes_GraphicNovel</li>
+                                </thingDefs>
+                            </fixedIngredientFilter>
+                            <products>
+                                <AJO_PileOfBooks>1</AJO_PileOfBooks>
+                            </products>
+                            <recipeUsers>
+                                <li>CraftingSpot</li>
+                                <li>AJO_WritingTable</li>
+                            </recipeUsers>
+                        </RecipeDef>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>/Defs/ThingDef[defName = "MedTimes_Desk"]</xpath>
+                    <value>
+                        <recipes>
+                            <li>AJO_BindBook</li>
+                            <li>AJO_WriteBook</li>
+                            <li>AJO_CollateBook</li>
+                            <li>AJO_CollateMedTimesGraphicNovel</li>
+                        </recipes>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<WorkGiverDef>
+		<defName>AJO_DoBillsWritingTable</defName>
+		<label>work on a book</label>
+		<giverClass>WorkGiver_DoBill</giverClass>
+		<workType>Art</workType>
+		<priorityInType>95</priorityInType>
+		<fixedBillGiverDefs>
+			<li>AJO_WritingTable</li>
+		</fixedBillGiverDefs>
+		<verb>write at</verb>
+		<gerund>writing at</gerund>
+		<requiredCapacities>
+			<li>Manipulation</li>
+		</requiredCapacities>
+		<prioritizeSustains>true</prioritizeSustains>
+	</WorkGiverDef>
+
+</Defs>

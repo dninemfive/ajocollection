@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<JoyGiverDef>
+		<defName>AJO_ReadBook</defName>
+		<giverClass>AdditionalJoyObjects.JoyGiver_GetBookReadBook</giverClass>
+		<baseChance>2</baseChance>
+		<pctPawnsEverDo>0.9</pctPawnsEverDo>
+		<thingDefs>
+			<li>AJO_ReadingTable</li>
+		</thingDefs>
+		<jobDef>AJO_ReadBook</jobDef>
+		<joyKind>AJO_Passive_Books</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+	<JoyGiverDef>
+		<defName>AJO_SkimBook</defName>
+		<giverClass>JoyGiver_InteractBuildingInteractionCell</giverClass>
+		<baseChance>1.5</baseChance>
+		<thingDefs>
+			<li>AJO_Bookcase</li>
+		</thingDefs>
+		<jobDef>AJO_SkimBook</jobDef>
+		<joyKind>AJO_Passive_Books</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+</Defs>

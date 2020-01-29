@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<JobDef>
+		<defName>AJO_PlayDarts</defName>
+		<driverClass>AdditionalJoyObjects.JobDriver_Dartboard</driverClass>
+		<reportString>Playing darts.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>3</joyMaxParticipants>
+		<joyGainRate>1</joyGainRate>
+		<joySkill>Shooting</joySkill>
+		<joyXpPerTick>0.003</joyXpPerTick>
+		<joyKind>Gaming_Dexterity</joyKind>
+	</JobDef>
+
+	<JobDef>
+		<defName>AJO_PlayRimColony</defName>
+		<driverClass>JobDriver_SitFacingBuilding</driverClass>
+		<reportString>Playing RimColony.</reportString>
+		<joyDuration>6000</joyDuration>
+		<joyMaxParticipants>4</joyMaxParticipants>
+		<joyGainRate>0.8</joyGainRate>
+		<joySkill>Social</joySkill>
+		<joyXpPerTick>0.001</joyXpPerTick>
+		<joyKind>AJO_Gaming_Social</joyKind>
+	</JobDef>
+
+</Defs>

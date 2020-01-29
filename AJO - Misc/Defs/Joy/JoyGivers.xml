@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<JoyGiverDef>
+		<defName>AJO_PlayDarts</defName>
+		<giverClass>JoyGiver_WatchBuilding</giverClass>
+		<baseChance>2.3</baseChance>
+		<thingDefs>
+			<li>AJO_Dartboard</li>
+		</thingDefs>
+		<jobDef>AJO_PlayDarts</jobDef>
+		<desireSit>false</desireSit>
+		<joyKind>Gaming_Dexterity</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+	<JoyGiverDef>
+		<defName>AJO_PlayRimColony</defName>
+		<giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+		<baseChance>2.5</baseChance>
+		<thingDefs>
+			<li>AJO_RimColony</li>
+		</thingDefs>
+		<jobDef>AJO_PlayRimColony</jobDef>
+		<joyKind>AJO_Gaming_Social</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+	<JoyGiverDef>
+		<defName>AJO_DrinkSpectagoTea</defName>
+		<giverClass>JoyGiver_Ingest</giverClass>
+		<baseChance>2</baseChance>
+		<thingDefs>
+			<li>AJO_SpectagoTea</li>
+		</thingDefs>
+		<joyKind>Gluttonous</joyKind>
+		<requiredCapacities>
+			<li>Eating</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
+</Defs>

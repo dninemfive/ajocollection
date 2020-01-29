@@ -1,0 +1,53 @@
+<Patch>
+    <!-- IF SeedsPlease is installed: Change_by_doing_what_is_stated -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>SeedsPlease</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs</xpath>
+                    <value>
+                        <SeedsPlease.SeedDef ParentName="SeedBase">
+                            <defName>AJO_SeedSpectago</defName>
+                            <label>spectago seeds</label>
+                            <plant>AJO_PlantOutdoorSpectago</plant>
+                            <graphicData>
+                                <texPath>Cupro/Item/Material/Seeds/SeedSpectago</texPath>
+                            </graphicData>
+                        </SeedsPlease.SeedDef>
+                    </value>
+                </li>
+                <li Class="PatchOperationAdd">
+                    <xpath>Defs</xpath>
+                    <value>
+                        <SeedsPlease.RecipeDef ParentName="ExtractSeed">
+                            <defName>AJO_ExtractSpectagoSeed</defName>
+                            <label>extract spectago seeds</label>
+                            <description>Extract seeds from spectago.</description>
+                            <ingredients>
+                                <li>
+                                    <filter>
+                                        <thingDefs>
+                                            <li>AJO_RainbowPetals</li>
+                                        </thingDefs>
+                                    </filter>
+                                    <count>9</count>
+                                </li>
+                            </ingredients>
+                            <fixedIngredientFilter>
+                                <thingDefs>
+                                    <li>AJO_RainbowPetals</li>
+                                </thingDefs>
+                            </fixedIngredientFilter>
+                            <products>
+                                <AJO_SeedSpectago>4</AJO_SeedSpectago>
+                            </products>
+                        </SeedsPlease.RecipeDef>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

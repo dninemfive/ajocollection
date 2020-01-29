@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AJO_TemperaPainting.label>テンペラの絵の具</AJO_TemperaPainting.label>
+  <AJO_TemperaPainting.description>卵とスペクタゴの色素を結合することができるようになり、より効率的に絵を描けるようになります。</AJO_TemperaPainting.description>
+
+  <AJO_PerodyneProduction.label>ペロダイン製造</AJO_PerodyneProduction.label>
+  <AJO_PerodyneProduction.description>多幸感を引き起こす鎮痛剤ペロダインを製造する方法を学びます。</AJO_PerodyneProduction.description>
+
+  <AJO_ArcadeConstruction.label>ゲーム機製作</AJO_ArcadeConstruction.label>
+  <AJO_ArcadeConstruction.description>ゲーム機の製作とゲームソフトのコピーができるようになります。</AJO_ArcadeConstruction.description>
+
+
+</LanguageData>

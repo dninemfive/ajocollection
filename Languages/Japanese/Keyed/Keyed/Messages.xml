@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AJO_ModName>Additional Joy Objects</AJO_ModName>
+  <!-- Settings -->
+  <AJO_Label_ArcadeJoyBool>ゲーム機を遊ぶ事によって経験値を得ます</AJO_Label_ArcadeJoyBool>
+  <AJO_Label_ArcadeJoyGain>ゲーム機を遊ぶ事から得られる経験値量: &lt;b&gt;&lt;color=orange&gt;{0}&lt;/color&gt;&lt;/b&gt;</AJO_Label_ArcadeJoyGain>
+  <AJO_ToolTip_ArcadeJoyBool>特定スキルに少量の経験値を与えます</AJO_ToolTip_ArcadeJoyBool>
+  <AJO_ToolTip_ArcadeJoyGain>数値が多いほど得られる経験値は多くなります</AJO_ToolTip_ArcadeJoyGain>
+  <!-- Placement Restrictors -->
+  <AJO_MustBePlacedOnWall>{0} 壁に置かなければなりません</AJO_MustBePlacedOnWall>
+  <!-- Chandelier -->
+  <AJO_ObjectTooTall>{0} 大きすぎてここには {1} を設置できません</AJO_ObjectTooTall>
+  <AJO_NeedsRoof>{0} 屋根の下に置く必要があります</AJO_NeedsRoof>
+  <!-- Book Reading Job -->
+  <AJO_Reading>読書中</AJO_Reading>
+  <AJO_Choosing>本を物色中</AJO_Choosing>
+  <!-- Arcade -->
+  <AJO_CommandArcadeSetOwnerDesc>このゲーム機を特定の植民者が所有するように割り当てます　所有者として登録されている者だけが遊ぶ事ができます.</AJO_CommandArcadeSetOwnerDesc>
+</LanguageData>

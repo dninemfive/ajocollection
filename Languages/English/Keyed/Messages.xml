@@ -1,0 +1,26 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<LanguageData>
+
+	<AJO_ModName>Additional Joy Objects</AJO_ModName>
+
+	<!-- Settings -->
+	<AJO_Label_ArcadeJoyBool>Arcade, Playing gives skill XP</AJO_Label_ArcadeJoyBool>
+	<AJO_Label_ArcadeJoyGain>Arcade, joy gain multiplier: &lt;b&gt;&lt;color=orange&gt;{0}&lt;/color&gt;&lt;/b&gt;</AJO_Label_ArcadeJoyGain>
+	<AJO_ToolTip_ArcadeJoyBool>Whether or not the arcades give a small amount of experience towards certain skills when playing.</AJO_ToolTip_ArcadeJoyBool>
+	<AJO_ToolTip_ArcadeJoyGain>How quickly colonists gain skill points for the arcade's skill.</AJO_ToolTip_ArcadeJoyGain>
+
+	<!-- Placement Restrictors -->
+	<AJO_MustBePlacedOnWall>{0} must be placed on a wall.</AJO_MustBePlacedOnWall>
+	
+	<!-- Chandelier -->
+	<AJO_ObjectTooTall>{0} is too tall to place a {1} here</AJO_ObjectTooTall>
+	<AJO_NeedsRoof>{0} needs to be placed under a roof</AJO_NeedsRoof>
+
+	<!-- Book Reading Job -->
+	<AJO_Reading>Reading</AJO_Reading>
+	<AJO_Choosing>Choosing a book</AJO_Choosing>
+
+	<!-- Arcade -->
+	<AJO_CommandArcadeSetOwnerDesc>Assign this arcade to be owned by specific colonists. If owners are specified, only colonists that are listed as owners will play at this arcade.</AJO_CommandArcadeSetOwnerDesc>
+
+</LanguageData>

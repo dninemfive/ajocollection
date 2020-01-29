@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AJO_Perodyne.label>ペロダイン</AJO_Perodyne.label>
+  <AJO_Perodyne.description>多幸感が得られる鎮痛薬です。\n
+副作用:
+  目のかすみ
+  めまい
+  口渇
+  呂律が回らない
+		</AJO_Perodyne.description>
+  <AJO_Perodyne.ingestible.ingestCommandString>{0}を飲む</AJO_Perodyne.ingestible.ingestCommandString>
+  <AJO_Perodyne.ingestible.ingestReportString>{0}を飲んでいる。</AJO_Perodyne.ingestible.ingestReportString>
+
+
+</LanguageData>

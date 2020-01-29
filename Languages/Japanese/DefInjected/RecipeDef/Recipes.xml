@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AJO_MakePainting.label>絵を描く</AJO_MakePainting.label>
+  <AJO_MakePainting.description>絵を描きます。</AJO_MakePainting.description>
+  <AJO_MakePainting.jobString>絵を描いている。</AJO_MakePainting.jobString>
+
+  <AJO_CookPaint.label>絵の具を作る</AJO_CookPaint.label>
+  <AJO_CookPaint.description>スペクタゴの花びらを煮詰めて絵の具を作ります。他の物質と組み合わせてください。</AJO_CookPaint.description>
+  <AJO_CookPaint.jobString>絵の具を作っている。</AJO_CookPaint.jobString>
+
+  <AJO_CookTemperaPaint.label>テンペラの絵の具を作る。</AJO_CookTemperaPaint.label>
+  <AJO_CookTemperaPaint.description>スペクタゴの花びらを煮詰めて絵の具を作ります。卵と他の物質と組み合わせてください。</AJO_CookTemperaPaint.description>
+  <AJO_CookTemperaPaint.jobString>テンペラの絵の具を作っている。</AJO_CookTemperaPaint.jobString>
+
+  <AJO_BrewSpectagoTea.label>スペクタゴティーを淹れる。</AJO_BrewSpectagoTea.label>
+  <AJO_BrewSpectagoTea.description>スペクタゴティーを淹れます。</AJO_BrewSpectagoTea.description>
+  <AJO_BrewSpectagoTea.jobString>スペクタゴティーを淹れている。</AJO_BrewSpectagoTea.jobString>
+
+  <AJO_BrewSpectagoTeaBulk.label>スペクタゴティーをたくさん淹れる。</AJO_BrewSpectagoTeaBulk.label>
+  <AJO_BrewSpectagoTeaBulk.description>スペクタゴティーをたくさん淹れます。</AJO_BrewSpectagoTeaBulk.description>
+  <AJO_BrewSpectagoTeaBulk.jobString>スペクタゴティーを淹れている。</AJO_BrewSpectagoTeaBulk.jobString>
+
+  <AJO_BrewPaper.label>紙をすく</AJO_BrewPaper.label>
+  <AJO_BrewPaper.description>木材や綿をセルロース繊維の液状混合物にして、シート状にひいて乾燥させます。</AJO_BrewPaper.description>
+  <AJO_BrewPaper.jobString>紙をすいている。</AJO_BrewPaper.jobString>
+
+  <AJO_BindBook.label>本を綴じる</AJO_BindBook.label>
+  <AJO_BindBook.description>ページと表紙をのり付けして綴じ、本を作ります。</AJO_BindBook.description>
+  <AJO_BindBook.jobString>本を綴じている</AJO_BindBook.jobString>
+
+  <AJO_WriteBook.label>執筆する</AJO_WriteBook.label>
+  <AJO_WriteBook.description>とある話を書いています。</AJO_WriteBook.description>
+  <AJO_WriteBook.jobString>執筆中。</AJO_WriteBook.jobString>
+
+  <AJO_CollateBook.label>本をまとめる</AJO_CollateBook.label>
+  <AJO_CollateBook.description>保管のために本をまとめます。</AJO_CollateBook.description>
+  <AJO_CollateBook.jobString>本をまとめている。</AJO_CollateBook.jobString>
+
+
+</LanguageData>

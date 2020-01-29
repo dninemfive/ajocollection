@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<Defs>
+
+	<JobDef>
+		<defName>AJO_ReadBook</defName>
+		<driverClass>AdditionalJoyObjects.JobDriver_GetBookReadBook</driverClass>
+		<reportString>Sitting down to read a book.</reportString>
+		<joyDuration>4000</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>0.8</joyGainRate>
+		<joyKind>AJO_Passive_Books</joyKind>
+	</JobDef>
+
+	<JobDef>
+		<defName>AJO_SkimBook</defName>
+		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<reportString>Skimming through books.</reportString>
+		<joyDuration>1250</joyDuration>
+		<joyMaxParticipants>1</joyMaxParticipants>
+		<joyGainRate>0.8</joyGainRate>
+		<joyKind>AJO_Passive_Books</joyKind>
+	</JobDef>
+
+</Defs>

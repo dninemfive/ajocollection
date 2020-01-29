@@ -1,0 +1,21 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RoomStatDef>
+		<defName>AJO_WritingSpeedFactor</defName>
+		<label>current room impressiveness</label>
+		<workerClass>RoomStatWorker_FromStatByCurve</workerClass>
+		<updatePriority>0</updatePriority>
+		<isHidden>true</isHidden>
+		<roomlessScore>1</roomlessScore>
+		<inputStat>Impressiveness</inputStat>
+		<curve>
+		  <points>
+			<li>(-150, 1.0)</li>
+			<li>(   0, 1.0)</li>
+			<li>( 150, 1.4)</li>
+		  </points>
+		</curve>
+	</RoomStatDef>
+
+</Defs>

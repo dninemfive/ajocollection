@@ -1,0 +1,25 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AJO_RainbowPetals.label>虹色の花弁</AJO_RainbowPetals.label>
+  <AJO_RainbowPetals.description>スペクタゴの小さいいくつかの色の花びらをまとめたものです。</AJO_RainbowPetals.description>
+
+  <AJO_PileOfBooks.label>本の山</AJO_PileOfBooks.label>
+  <AJO_PileOfBooks.description>整理されていないバラバラの本です。</AJO_PileOfBooks.description>
+
+  <AJO_PaintingSupplies.label>絵画用品</AJO_PaintingSupplies.label>
+  <AJO_PaintingSupplies.description>様々なブラシと絵の具が詰まっています。どんなアーティストにも最適です。</AJO_PaintingSupplies.description>
+  <AJO_PaintingSupplies.stuffProps.stuffAdjective>painting supplies</AJO_PaintingSupplies.stuffProps.stuffAdjective>
+
+  <AJO_Paper.label>紙</AJO_Paper.label>
+  <AJO_Paper.description>これで絵や本を作ります。</AJO_Paper.description>
+
+  <AJO_BlankBook.label>何も書かれていない本</AJO_BlankBook.label>
+  <AJO_BlankBook.description>この本は物語が書かれるのを待っています。</AJO_BlankBook.description>
+  <AJO_BlankBook.stuffProps.stuffAdjective>blank book</AJO_BlankBook.stuffProps.stuffAdjective>
+
+  <AJO_WrittenBook.label>本(執筆済)</AJO_WrittenBook.label>
+  <AJO_WrittenBook.description>コロニーの誰かが書いた本。</AJO_WrittenBook.description>
+
+
+</LanguageData>

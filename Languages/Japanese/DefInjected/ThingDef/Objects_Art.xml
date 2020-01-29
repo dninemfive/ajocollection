@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Furniture -->
+  <AJO_Painting.label>絵画</AJO_Painting.label>
+  <AJO_Painting.description>絵画。 壁の穴を隠すのにも使えますし、目の保養にもなります。</AJO_Painting.description>
+  <Blueprint_Install_AJO_Painting.label>絵画(移動先)</Blueprint_Install_AJO_Painting.label>
+  <!-- Production -->
+  <AJO_Easel.label>イーゼル</AJO_Easel.label>
+  <AJO_Easel.description>絵を描くためのイーゼルです。</AJO_Easel.description>
+  <Blueprint_AJO_Easel.label>イーゼル(設計)</Blueprint_AJO_Easel.label>
+  <Frame_AJO_Easel.label>イーゼル(施工)</Frame_AJO_Easel.label>
+  <Frame_AJO_Easel.description>絵を描くためのイーゼルです。</Frame_AJO_Easel.description>
+  <!-- Packages -->
+  <AJO_MinifiedPainting.label>絵画</AJO_MinifiedPainting.label>
+</LanguageData>

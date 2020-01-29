@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AJO_PaintingSupplies</defName>
+		<label>painting supplies</label>
+		<description>A large assortment of brushes and paints, perfect for any artist.</description>
+		<graphicData>
+			<texPath>Cupro/Item/Material/PaintingSupplies</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<MarketValue>15</MarketValue>
+			<Mass>0.2</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+			<DeteriorationRate>4</DeteriorationRate>
+		</statBases>
+		<stackLimit>10</stackLimit>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+			<li>AJO_JoyItem</li>
+		</tradeTags>
+		<stuffProps>
+			<categories>
+				<li>AJO_Paint</li>
+			</categories>
+		</stuffProps>
+	</ThingDef>
+
+</Defs>
+
+
+
+
+
+

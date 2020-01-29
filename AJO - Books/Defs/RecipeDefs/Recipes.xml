@@ -1,0 +1,150 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<RecipeDef>
+		<defName>AJO_BrewPaper</defName>
+		<label>brew paper</label>
+		<description>Reduce wood or cotton into a soupy mixture of cellulose fiber, then dry it into sheets.</description>
+		<jobString>Brewing paper</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<workAmount>1000</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>100</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+						<li>Cloth</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+				<li>Cloth</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_Paper>100</AJO_Paper>
+		</products>
+		<recipeUsers>
+			<li>Brewery</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Cooking>5</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>AJO_BindBook</defName>
+		<label>bind book</label>
+		<description>Bind paper and a backing into a book.</description>
+		<jobString>Binding.</jobString>
+		<workAmount>500</workAmount>
+		<workSpeedStat>WorkSpeedGlobal</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_Paper</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>Leathers</li>
+					</categories>
+				</filter>
+				<count>5</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_Paper</li>
+			</thingDefs>
+			<categories>
+				<li>Leathers</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_BlankBook>1</AJO_BlankBook>
+		</products>
+		<recipeUsers>
+			<li>AJO_WritingTable</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>AJO_WriteBook</defName>
+		<label>write book</label>
+		<description>Write a short story in a book.</description>
+		<jobString>Writing.</jobString>
+		<workAmount>20000</workAmount>
+		<workSpeedStat>AJO_WritingSpeed</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_BlankBook</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_BlankBook</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<unfinishedThingDef>AJO_UnfinishedBook</unfinishedThingDef>
+		<products>
+			<AJO_WrittenBook>1</AJO_WrittenBook>
+		</products>
+		<recipeUsers>
+			<li>AJO_WritingTable</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef Name="AJO_RecipeDefInsertion">
+		<defName>AJO_CollateBook</defName>
+		<label>collate books</label>
+		<description>Group books together for storage or crafting.</description>
+		<jobString>Collating.</jobString>
+		<workAmount>50</workAmount>
+		<workSpeedStat>WorkSpeedGlobal</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_WrittenBook</li>
+					</thingDefs>
+				</filter>
+				<count>3</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_WrittenBook</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_PileOfBooks>1</AJO_PileOfBooks>
+		</products>
+		<recipeUsers>
+			<li>CraftingSpot</li>
+			<li>AJO_WritingTable</li>
+		</recipeUsers>
+	</RecipeDef>
+
+</Defs>

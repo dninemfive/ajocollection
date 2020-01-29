@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+
+	<!--===================Furniture===================-->
+
+
+	<ThingDef ParentName="OnWallBase">
+		<defName>AJO_Painting</defName>
+		<thingClass>Building_Art</thingClass>
+		<label>painting</label>
+		<description>A painting. Useful for covering up holes, and quite easy on the eyes.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/Painting/Painting</texPath>
+		</graphicData>
+		<uiIconPath>Cupro/Object/Furniture/Painting/Painting_MenuIcon</uiIconPath>
+		<size>(1,1)</size>
+		<minifiedDef>AJO_MinifiedPainting</minifiedDef>
+		<thingCategories>
+			<li>BuildingsArt</li>
+		</thingCategories>
+		<statBases>
+			<WorkToMake>15000</WorkToMake>
+			<MarketValue>30</MarketValue>
+			<Mass>1</Mass>
+			<MaxHitPoints>10</MaxHitPoints>
+			<Flammability>1.0</Flammability>
+			<Beauty>30</Beauty>
+			<JoyGainFactor>1</JoyGainFactor>
+		</statBases>
+		<costList>
+			<Cloth>1</Cloth>
+		</costList>
+		<building>
+			<watchBuildingStandDistanceRange>
+				<min>1</min>
+				<max>3</max>
+			</watchBuildingStandDistanceRange> 
+			<watchBuildingStandRectWidth>5</watchBuildingStandRectWidth>
+		</building>
+		<comps>
+			<li>
+				<compClass>CompQuality</compClass>
+			</li>
+			<li Class="CompProperties_Art">
+				<nameMaker>NamerArtSculpture</nameMaker>
+				<descriptionMaker>AJO_ArtDescription_Painting</descriptionMaker>
+			</li>
+		</comps>
+		<drawPlaceWorkersWhileSelected>true</drawPlaceWorkersWhileSelected>
+		<placeWorkers>
+			<li>PlaceWorker_WatchArea</li>
+		</placeWorkers>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>	
+	</ThingDef>
+
+
+	<!--==================Production==================-->
+
+
+	<ThingDef ParentName="FurnitureBase">
+		<defName>AJO_Easel</defName>
+		<label>painting easel</label>
+		<thingClass>Building_WorkTable</thingClass>
+		<description>An easel equipped for artistic painting.</description>
+		<graphicData>
+			<texPath>Cupro/Object/Furniture/Easel/Easel</texPath>
+			<graphicClass>Graphic_Multi</graphicClass>
+		</graphicData>
+		<blockLight>false</blockLight>
+		<uiIconPath>Cupro/Object/Furniture/Easel/Easel_front</uiIconPath>
+		<thingCategories>
+			<li>BuildingsProduction</li>
+		</thingCategories>
+		<costList>
+			<WoodLog>15</WoodLog>
+		</costList>
+		<altitudeLayer>Building</altitudeLayer>
+		<fillPercent>0.5</fillPercent>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<WorkToBuild>500</WorkToBuild>
+			<MaxHitPoints>50</MaxHitPoints>
+			<Mass>3</Mass>
+			<Flammability>1.0</Flammability>
+			<Beauty>5</Beauty>
+			<JoyGainFactor>1</JoyGainFactor>
+		</statBases>
+		<size>(1,1)</size>
+		<designationCategory>Production</designationCategory>
+		<passability>PassThroughOnly</passability>
+		<canOverlapZones>false</canOverlapZones>
+		<pathCost>40</pathCost>
+		<hasInteractionCell>true</hasInteractionCell>
+		<interactionCellOffset>(0,0,1)</interactionCellOffset>
+		<surfaceType>Item</surfaceType>
+		<inspectorTabs>
+			<li>ITab_Bills</li>
+		</inspectorTabs>
+		<building>
+			<spawnedConceptLearnOpportunity>BillsTab</spawnedConceptLearnOpportunity>
+			<workSpeedPenaltyTemperature>true</workSpeedPenaltyTemperature>
+		</building>
+		<comps>
+			<li>
+				<compClass>CompReportWorkSpeed</compClass>
+			</li>
+		</comps>
+		<placeWorkers>
+			<li>PlaceWorker_ReportWorkSpeedPenalties</li>
+		</placeWorkers>
+	</ThingDef>
+
+
+	<!-- ======================= Packages ========================= -->
+	
+
+	<ThingDef>
+		<defName>AJO_MinifiedPainting</defName>
+		<label>Painting</label>
+		<thingCategories>
+			<li>BuildingsArt</li>
+		</thingCategories>
+		<inspectorTabs>
+			<li>ITab_Art</li>
+		</inspectorTabs>
+		<thingClass>MinifiedThing</thingClass>
+		<category>Item</category>
+		<useHitPoints>true</useHitPoints>
+		<selectable>true</selectable>
+		<altitudeLayer>Item</altitudeLayer>
+		<scatterableOnMapGen>false</scatterableOnMapGen>
+		<tickerType>Normal</tickerType>
+		<drawerType>RealtimeOnly</drawerType>
+		<comps>
+		  <li Class="CompProperties_Forbiddable"/>
+		</comps>
+		<statBases>
+			<Mass>1</Mass>
+		</statBases>
+		<alwaysHaulable>true</alwaysHaulable>
+		<rotatable>false</rotatable>
+		<pathCost>15</pathCost>
+	</ThingDef>
+</Defs>

@@ -1,0 +1,78 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Empty Arcade -->
+  <AJO_ArcadeEmpty.label>ゲーム機(未インストール)</AJO_ArcadeEmpty.label>
+  <AJO_ArcadeEmpty.description>ソフトの入っていないゲーム機。ゲームソフトをインストールしてください。</AJO_ArcadeEmpty.description>
+  <!-- Arcade Construction -->
+  <AJO_TableArcadeConstruction.label>ゲーム製作台</AJO_TableArcadeConstruction.label>
+  <AJO_TableArcadeConstruction.description>ゲーム機の製作、ソフトの製作や複製を行う台です。</AJO_TableArcadeConstruction.description>
+  <Blueprint_AJO_TableArcadeConstruction.label>ゲーム製作台(設計)</Blueprint_AJO_TableArcadeConstruction.label>
+  <Frame_AJO_TableArcadeConstruction.label>ゲーム製作台(施工)</Frame_AJO_TableArcadeConstruction.label>
+  <Frame_AJO_TableArcadeConstruction.description>ゲーム機の製作、ソフトの製作や複製を行う台です。</Frame_AJO_TableArcadeConstruction.description>
+  <!-- Inheritors -->
+  <AJO_CartHomebrew.label>ゲームソフト(自作)</AJO_CartHomebrew.label>
+  <AJO_CartHomebrew.description>植民者によって作られたシンプルなゲームです。結構楽しい。</AJO_CartHomebrew.description>
+  <AJO_ArcadeHomebrew.label>ゲーム機(自作ソフト)</AJO_ArcadeHomebrew.label>
+  <AJO_ArcadeHomebrew.description>植民者によって作られたシンプルなゲームです。結構楽しい。</AJO_ArcadeHomebrew.description>
+  <Blueprint_Install_AJO_ArcadeHomebrew.label>ゲーム機(自作ソフト)(移動先)</Blueprint_Install_AJO_ArcadeHomebrew.label>
+  <AJO_CartRS.label>ゲームソフト(Rum Swirled)</AJO_CartRS.label>
+  <AJO_CartRS.description>船が難破しある島に流れ着くゲーム。その島には大量のラム酒がありましたが、シェルターはありませんでした。</AJO_CartRS.description>
+  <AJO_ArcadeRS.label>ゲーム機(Rum Swirled)</AJO_ArcadeRS.label>
+  <AJO_ArcadeRS.description>船が難破しある島に流れ着くゲーム。その島には大量のラム酒がありましたが、シェルターはありませんでした。</AJO_ArcadeRS.description>
+  <Blueprint_Install_AJO_ArcadeRS.label>ゲーム機(Rum Swirled)(移動先)</Blueprint_Install_AJO_ArcadeRS.label>
+  <AJO_CartMC.label>ゲームソフト(MintCraft)</AJO_CartMC.label>
+  <AJO_CartMC.description>MintCraftの世界ではプレイヤーはミントの葉から何でも作ることができます。方法は聞かないでください。</AJO_CartMC.description>
+  <AJO_ArcadeMC.label>ゲーム機(MintCraft)</AJO_ArcadeMC.label>
+  <AJO_ArcadeMC.description>MintCraftの世界ではプレイヤーはミントの葉から何でも作ることができます。方法は聞かないでください。</AJO_ArcadeMC.description>
+  <Blueprint_Install_AJO_ArcadeMC.label>ゲーム機(MintCraft)(移動先)</Blueprint_Install_AJO_ArcadeMC.label>
+  <AJO_CartHL.label>ゲームソフト(Halva Life)</AJO_CartHL.label>
+  <AJO_CartHL.description>Halva Lifeではプレイヤーは赤く焼けたお菓子のシェフであるゴードンとしてプレイします。完全な悪夢になる前に、キッチンを支配する必要があります。</AJO_CartHL.description>
+  <AJO_ArcadeHL.label>ゲーム機(Halva Life)</AJO_ArcadeHL.label>
+  <AJO_ArcadeHL.description>Halva Lifeではプレイヤーは赤く焼けたお菓子のシェフであるゴードンとしてプレイします。完全な悪夢になる前に、キッチンを支配する必要があります。</AJO_ArcadeHL.description>
+  <Blueprint_Install_AJO_ArcadeHL.label>ゲーム機(Halva Life)(移動先)</Blueprint_Install_AJO_ArcadeHL.label>
+  <AJO_CartES.label>ゲームソフト(Elder Scones)</AJO_CartES.label>
+  <AJO_CartES.description>「あなたしかいない。この週末、貪欲な町の人々からバターナイフと皿に一杯のスコーンを守らなければいけないのだ。」このゲームの箱にはそう書いてあります。</AJO_CartES.description>
+  <AJO_ArcadeES.label>ゲーム機(Elder Scones)</AJO_ArcadeES.label>
+  <AJO_ArcadeES.description>「あなたしかいない。この週末、貪欲な町の人々からバターナイフと皿に一杯のスコーンを守らなければいけないのだ。」このゲームの箱にはそう書いてあります。</AJO_ArcadeES.description>
+  <Blueprint_Install_AJO_ArcadeES.label>ゲーム機(Elder Scones)(移動先)</Blueprint_Install_AJO_ArcadeES.label>
+  <AJO_CartBG.label>ゲームソフト(Baguettris)</AJO_CartBG.label>
+  <AJO_CartBG.description>あらいやだ！バゲットの補給船が正しくハッチを閉じなかった！ 落下するバゲットを素早く積み重ねて別の船に積み込んでください！</AJO_CartBG.description>
+  <AJO_ArcadeBG.label>ゲーム機(Baguettris)</AJO_ArcadeBG.label>
+  <AJO_ArcadeBG.description>あらいやだ！バゲットの補給船が正しくハッチを閉じなかった！ 落下するバゲットを素早く積み重ねて別の船に積み込んでください！</AJO_ArcadeBG.description>
+  <Blueprint_Install_AJO_ArcadeBG.label>ゲーム機(Baguettris)(移動先)</Blueprint_Install_AJO_ArcadeBG.label>
+  <AJO_CartCB.label>ゲームソフト(Cooking Baba)</AJO_CartCB.label>
+  <AJO_CartCB.description>馬場博士はキッチンであなたに伝説の料理テクニックを教えます。チャレンジモードでベストシェフのタイトルを競ってください！</AJO_CartCB.description>
+  <AJO_ArcadeCB.label>ゲーム機(Cooking Baba)</AJO_ArcadeCB.label>
+  <AJO_ArcadeCB.description>馬場博士はキッチンであなたに伝説の料理テクニックを教えます。チャレンジモードでベストシェフのタイトルを競ってください！</AJO_ArcadeCB.description>
+  <Blueprint_Install_AJO_ArcadeCB.label>ゲーム機(Cooking Baba)(移動先)</Blueprint_Install_AJO_ArcadeCB.label>
+  <AJO_CartPS.label>ゲームソフト(Plants Vs. Salamis)</AJO_CartPS.label>
+  <AJO_CartPS.description>サラミの母艦があなたの進路を遮ってきました；それは乗り込まれることを意味します。遺伝子組み換えスーパープラントで武装し、船の防御を強化し安全を保ってください！</AJO_CartPS.description>
+  <AJO_ArcadePS.label>ゲーム機(Plants Vs. Salamis)</AJO_ArcadePS.label>
+  <AJO_ArcadePS.description>サラミの母艦があなたの進路を遮ってきました；それは乗り込まれることを意味します。遺伝子組み換えスーパープラントで武装し、船の防御を強化し安全を保ってください！</AJO_ArcadePS.description>
+  <Blueprint_Install_AJO_ArcadePS.label>ゲーム機(Plants Vs. Salamis)(移動先)</Blueprint_Install_AJO_ArcadePS.label>
+  <AJO_CartPK.label>ゲームソフト(Psycho Knots)</AJO_CartPK.label>
+  <AJO_CartPK.description>第72回ピザ職人選手権の時期がやってきました。あなたは上手く焼いてトップに立てるでしょうか？</AJO_CartPK.description>
+  <AJO_ArcadePK.label>ゲーム機(Psycho Knots)</AJO_ArcadePK.label>
+  <AJO_ArcadePK.description>第72回ピザ職人選手権の時期がやってきました。あなたは上手く焼いてトップに立てるでしょうか？</AJO_ArcadePK.description>
+  <Blueprint_Install_AJO_ArcadePK.label>ゲーム機(Psycho Knots)(移動先)</Blueprint_Install_AJO_ArcadePK.label>
+  <AJO_CartSP.label>ゲームソフト(Speltunky)</AJO_CartSP.label>
+  <AJO_CartSP.description>ある日、あなたの小麦農場の中心で下水口が崩壊し、あなたはとても大きな地下洞窟に落ちてしまいます。脱出のための唯一の希望は掘り続けることだけですが、そこらじゅうの角に危険が潜んでいます。</AJO_CartSP.description>
+  <AJO_ArcadeSP.label>ゲーム機(Speltunky)</AJO_ArcadeSP.label>
+  <AJO_ArcadeSP.description>ある日、あなたの小麦農場の中心で下水口が崩壊し、あなたはとても大きな地下洞窟に落ちてしまいます。脱出のための唯一の希望は掘り続けることだけですが、そこらじゅうの角に危険が潜んでいます。</AJO_ArcadeSP.description>
+  <Blueprint_Install_AJO_ArcadeSP.label>ゲーム機(Speltunky)(移動先)</Blueprint_Install_AJO_ArcadeSP.label>
+  <AJO_CartTZ.label>ゲームソフト(The Zimz)</AJO_CartTZ.label>
+  <AJO_CartTZ.description>The Zimzでは、人々をシミュレートしたり、人をシミュレートするゲームをプレイしている人を見たりします。</AJO_CartTZ.description>
+  <AJO_ArcadeTZ.label>ゲーム機(The Zimz)</AJO_ArcadeTZ.label>
+  <AJO_ArcadeTZ.description>The Zimzでは、人々をシミュレートしたり、人をシミュレートするゲームをプレイしている人を見たりします。</AJO_ArcadeTZ.description>
+  <Blueprint_Install_AJO_ArcadeTZ.label>ゲーム機(The Zimz)(移動先)</Blueprint_Install_AJO_ArcadeTZ.label>
+  <AJO_CartTV.label>ゲームソフト(Trauma Vendor)</AJO_CartTV.label>
+  <AJO_CartTV.description>14時です。トラックを運転して、誰が治療を必要としているか見てみましょう。戦争中のurbworldのとある1日を経験します。</AJO_CartTV.description>
+  <AJO_ArcadeTV.label>ゲーム機(Trauma Vendor)</AJO_ArcadeTV.label>
+  <AJO_ArcadeTV.description>14時です。トラックを運転して、誰が治療を必要としているか見てみましょう。戦争中のurbworldのとある1日を経験します。</AJO_ArcadeTV.description>
+  <Blueprint_Install_AJO_ArcadeTV.label>ゲーム機(Trauma Vendor)(移動先)</Blueprint_Install_AJO_ArcadeTV.label>
+  <AJO_CartGD.label>ゲームソフト(Glutendogs)</AJO_CartGD.label>
+  <AJO_CartGD.description>あなたはベーカリーに小麦粉を入れる前に、新しいペットをしつけることはできますか？なぜ犬をベーカリーに連れていったのですか？</AJO_CartGD.description>
+  <AJO_ArcadeGD.label>ゲーム機(Glutendogs)</AJO_ArcadeGD.label>
+  <AJO_ArcadeGD.description>あなたはベーカリーに小麦粉を入れる前に、新しいペットをしつけることはできますか？なぜ犬をベーカリーに連れていったのですか？</AJO_ArcadeGD.description>
+  <Blueprint_Install_AJO_ArcadeGD.label>ゲーム機(Glutendogs)(移動先)</Blueprint_Install_AJO_ArcadeGD.label>
+</LanguageData>

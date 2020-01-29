@@ -1,0 +1,12 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AJO_DoBillsMakePainting.label>絵画く</AJO_DoBillsMakePainting.label>
+  <AJO_DoBillsMakePainting.verb>絵画</AJO_DoBillsMakePainting.verb>
+  <AJO_DoBillsMakePainting.gerund>絵を描く</AJO_DoBillsMakePainting.gerund>
+  <AJO_DoBillsWritingTable.label>本の執筆</AJO_DoBillsWritingTable.label>
+  <AJO_DoBillsWritingTable.verb>執筆</AJO_DoBillsWritingTable.verb>
+  <AJO_DoBillsWritingTable.gerund>執筆する</AJO_DoBillsWritingTable.gerund>
+  <AJO_DoBillsArcadeConstruction.label>ゲーム機製作</AJO_DoBillsArcadeConstruction.label>
+  <AJO_DoBillsArcadeConstruction.verb>ゲーム機製作</AJO_DoBillsArcadeConstruction.verb>
+  <AJO_DoBillsArcadeConstruction.gerund>ゲーム機を製作する</AJO_DoBillsArcadeConstruction.gerund>
+</LanguageData>

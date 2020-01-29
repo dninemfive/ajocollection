@@ -1,0 +1,20 @@
+<Patch>
+    <!-- IF Cupro's Drinks - Core is installed: merge categories -->
+    <Operation Class="PatchOperationFindMod">
+        <mods>
+            <li>Cupro's Drinks - Core</li>
+        </mods>
+        <match Class="PatchOperationSequence">
+            <operations>
+                <li Class="PatchOperationReplace">
+                    <xpath>/Defs/ThingDef[defName = "AJO_SpectagoTea"]/thingCategories</xpath>
+                    <value>
+                        <thingCategories>
+                            <li>CPD_Drinks</li>
+                        </thingCategories>
+                    </value>
+                </li>
+            </operations>
+        </match>
+    </Operation>
+</Patch>

@@ -1,0 +1,18 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PerodyneHigh.stages.initialhidden.label>特に異常は見られない</PerodyneHigh.stages.initialhidden.label>
+  <PerodyneHigh.stages.initialhidden.description>効果は現れていない</PerodyneHigh.stages.initialhidden.description>
+  <PerodyneHigh.stages.comfortable.label>快適</PerodyneHigh.stages.comfortable.label>
+  <PerodyneHigh.stages.comfortable.description>ペロダインで少しだけリラックスした気分になる。</PerodyneHigh.stages.comfortable.description>
+  <PerodyneHigh.stages.buzzed.label>気分が良い</PerodyneHigh.stages.buzzed.label>
+  <PerodyneHigh.stages.buzzed.description>とても気分が良い。</PerodyneHigh.stages.buzzed.description>
+  <PerodyneHigh.stages.numb.label>感覚がない</PerodyneHigh.stages.numb.label>
+  <PerodyneHigh.stages.numb.description>嫌な気分はない。何もかもがワクワクする。</PerodyneHigh.stages.numb.description>
+  <PerodyneHigh.stages.floating_by.label>浮遊感</PerodyneHigh.stages.floating_by.label>
+  <PerodyneHigh.stages.floating_by.description>水の中にいるような気分だ。私を悩ますものは何もない。</PerodyneHigh.stages.floating_by.description>
+  <PerodyneHigh.stages.wasted.label>意識朦朧</PerodyneHigh.stages.wasted.label>
+  <PerodyneHigh.stages.wasted.description>う～ん・・・</PerodyneHigh.stages.wasted.description>
+  <!-- Perodyne addiction -->
+  <PerodyneWithdrawal.stages.perodyne_withdrawal.label>ペロダイン禁断症状</PerodyneWithdrawal.stages.perodyne_withdrawal.label>
+  <PerodyneWithdrawal.stages.perodyne_withdrawal.description>ペロダインが欲しい。</PerodyneWithdrawal.stages.perodyne_withdrawal.description>
+</LanguageData>

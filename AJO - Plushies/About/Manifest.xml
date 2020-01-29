@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>D9DeconstructReturnFix</identifier>
+    <version>1.0.1</version>
+    <dependencies/>
+    <loadAfter/>
+    <suggests>
+		<li>1602579533</li>  <!-- AJO Lite -->	
+	</suggests>
+    <showCrossPromotions>true</showCrossPromotions>
+    <manifestUri>https://raw.githubusercontent.com/dninemfive/deconstructreturnfix/master/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/dninemfive/deconstructreturnfix/releases/latest</downloadUri>
+</Manifest>

@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ResearchProjectDef>
+		<defName>AJO_TemperaPainting</defName>
+		<label>Tempera paint</label>
+		<description>Allows more efficient paint making by binding spectago pigment with eggs.</description>
+		<tab>cP</tab>
+		<baseCost>500</baseCost>
+		<techLevel>Medieval</techLevel>
+		<researchViewX>0</researchViewX>
+		<researchViewY>0</researchViewY>
+	</ResearchProjectDef>
+
+</Defs>

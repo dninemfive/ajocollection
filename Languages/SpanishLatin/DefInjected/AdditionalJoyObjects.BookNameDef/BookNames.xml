@@ -1,0 +1,15 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+	<BookNames.label>Libro</BookNames.label>
+		<bookNames>
+			<!--  Simply add new titles inside of <li> </li> tags to have more book titles for your colonists!   -->
+			<li>El Ingenioso Hidalgo don Chayote</li>
+			<li>Historia de Dos Castillos</li>
+			<li>La Calabaza de los Frijoles</li>
+			<li>La Cal, la Bruja y el Armario</li>
+			<li>Y no Quedó Niguna Cebolla</li>
+			<li>Melazas</li>
+		</bookNames>
+
+</LanguageData>

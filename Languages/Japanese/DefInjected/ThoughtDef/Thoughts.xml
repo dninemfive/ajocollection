@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AJO_SpectagoTea.stages.initialhidden.label>特に変化無し</AJO_SpectagoTea.stages.initialhidden.label>
+  <AJO_SpectagoTea.stages.initialhidden.description>効果は現れていない。</AJO_SpectagoTea.stages.initialhidden.description>
+  <AJO_SpectagoTea.stages.warm.label>暖かい</AJO_SpectagoTea.stages.warm.label>
+  <AJO_SpectagoTea.stages.warm.description>このお茶を飲むと体が温まる。</AJO_SpectagoTea.stages.warm.description>
+  <AJO_SpectagoTea.stages.relaxed.label>リラックス</AJO_SpectagoTea.stages.relaxed.label>
+  <AJO_SpectagoTea.stages.relaxed.description>このお茶を飲むとリラックスできます。気分が良い。</AJO_SpectagoTea.stages.relaxed.description>
+  <AJO_ReadInImpressiveLibrary.stages.decent_library.label>悪くない図書室</AJO_ReadInImpressiveLibrary.stages.decent_library.label>
+  <AJO_ReadInImpressiveLibrary.stages.decent_library.description>私は、悪くない図書室で本を読んだ。</AJO_ReadInImpressiveLibrary.stages.decent_library.description>
+  <AJO_ReadInImpressiveLibrary.stages.slightly_impressive_library.label>わずかに豪華な図書室</AJO_ReadInImpressiveLibrary.stages.slightly_impressive_library.label>
+  <AJO_ReadInImpressiveLibrary.stages.slightly_impressive_library.description>私は、わずかに豪華な図書室で本を読んだ。</AJO_ReadInImpressiveLibrary.stages.slightly_impressive_library.description>
+  <AJO_ReadInImpressiveLibrary.stages.somewhat_impressive_library.label>やや豪華な食堂</AJO_ReadInImpressiveLibrary.stages.somewhat_impressive_library.label>
+  <AJO_ReadInImpressiveLibrary.stages.somewhat_impressive_library.description>私は、豪華な図書室で本を読んだ。</AJO_ReadInImpressiveLibrary.stages.somewhat_impressive_library.description>
+  <AJO_ReadInImpressiveLibrary.stages.very_impressive_library.label>とても豪華な図書室</AJO_ReadInImpressiveLibrary.stages.very_impressive_library.label>
+  <AJO_ReadInImpressiveLibrary.stages.very_impressive_library.description>私は、とても豪華な図書室で本を読んだ。</AJO_ReadInImpressiveLibrary.stages.very_impressive_library.description>
+  <AJO_ReadInImpressiveLibrary.stages.extremely_impressive_library.label>極めて豪華な図書室</AJO_ReadInImpressiveLibrary.stages.extremely_impressive_library.label>
+  <AJO_ReadInImpressiveLibrary.stages.extremely_impressive_library.description>私は、極めて豪華な図書室で、本を読んだ。ずっと、こうしていたい。</AJO_ReadInImpressiveLibrary.stages.extremely_impressive_library.description>
+  <AJO_ReadInImpressiveLibrary.stages.unbelievably_impressive_library.label>信じられないくらい豪華な図書室</AJO_ReadInImpressiveLibrary.stages.unbelievably_impressive_library.label>
+  <AJO_ReadInImpressiveLibrary.stages.unbelievably_impressive_library.description>私は、信じられないくらい豪華な図書室で、本を読んだ。ずっと、こうしていたい。</AJO_ReadInImpressiveLibrary.stages.unbelievably_impressive_library.description>
+  <AJO_ReadInImpressiveLibrary.stages.wondrously_impressive_library.label>奇跡的なぐらい豪華な図書室</AJO_ReadInImpressiveLibrary.stages.wondrously_impressive_library.label>
+  <AJO_ReadInImpressiveLibrary.stages.wondrously_impressive_library.description>私は、奇跡的なぐらい豪華な図書室で、本を読んだ。ずっと、こうしていたい。</AJO_ReadInImpressiveLibrary.stages.wondrously_impressive_library.description>
+</LanguageData>

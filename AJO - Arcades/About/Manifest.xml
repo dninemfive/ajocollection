@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>D9AJOLite</identifier>
+    <version>1.0.2</version>
+    <loadAfter>
+		<li>D9DeconstructReturnFix</li>
+	</loadAfter>
+    <suggests>
+		<li>1842663639</li> <!-- Retro Joy -->		
+	</suggests>
+    <showCrossPromotions>true</showCrossPromotions>
+    <manifestUri>https://raw.githubusercontent.com/dninemfive/ajo-lite/master/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/dninemfive/ajo-lite/releases/latest</downloadUri>
+</Manifest>

@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<ThingDef ParentName="UnfinishedBase">
+    <defName>AJO_UnfinishedCart</defName>
+    <label>unfinished arcade cart</label>
+    <graphicData>
+      <texPath>Cupro/Item/Unfinished/UnfinishedCart</texPath>
+    </graphicData>
+    <stuffCategories />
+  </ThingDef>
+</Defs>

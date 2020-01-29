@@ -1,0 +1,29 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Inheritors -->
+  <ChanPart_1x1_Support.label>シャンデリア(小)</ChanPart_1x1_Support.label>
+  <ChanPart_1x1_Support.description>下にガラスのボウルが付いたシンプルなシャンデリア。 天井からほとんどの物に吊り下げることができます。</ChanPart_1x1_Support.description>
+  <Blueprint_Install_ChanPart_1x1_Support.label>シャンデリア(小)(移動先)</Blueprint_Install_ChanPart_1x1_Support.label>
+  <Blueprint_ChanPart_1x1_Support.label>シャンデリア(小)(設計)</Blueprint_ChanPart_1x1_Support.label>
+  <Frame_ChanPart_1x1_Support.label>シャンデリア(小)(施工)</Frame_ChanPart_1x1_Support.label>
+  <Frame_ChanPart_1x1_Support.description>下にガラスのボウルが付いたシンプルなシャンデリア。 天井からほとんどの物に吊り下げることができます。</Frame_ChanPart_1x1_Support.description>
+  <ChanPart_2x2_Support.label>シャンデリア</ChanPart_2x2_Support.label>
+  <ChanPart_2x2_Support.description>下にガラスのボウルが付いたシンプルなシャンデリア。 天井からほとんどの物に吊り下げることができます。</ChanPart_2x2_Support.description>
+  <Blueprint_Install_ChanPart_2x2_Support.label>シャンデリア(移動先)</Blueprint_Install_ChanPart_2x2_Support.label>
+  <Blueprint_ChanPart_2x2_Support.label>シャンデリア(設計)</Blueprint_ChanPart_2x2_Support.label>
+  <Frame_ChanPart_2x2_Support.label>シャンデリア(施工)</Frame_ChanPart_2x2_Support.label>
+  <Frame_ChanPart_2x2_Support.description>下にガラスのボウルが付いたシンプルなシャンデリア。 天井からほとんどの物に吊り下げることができます。</Frame_ChanPart_2x2_Support.description>
+  <ChanPart_3x3_Support.label>シャンデリア(大)</ChanPart_3x3_Support.label>
+  <ChanPart_3x3_Support.description>下にガラスのボウルが付いたシンプルなシャンデリア。 天井からほとんどの物に吊り下げることができます。</ChanPart_3x3_Support.description>
+  <Blueprint_Install_ChanPart_3x3_Support.label>シャンデリア(大)(移動先)</Blueprint_Install_ChanPart_3x3_Support.label>
+  <Blueprint_ChanPart_3x3_Support.label>シャンデリア(大)(設計)</Blueprint_ChanPart_3x3_Support.label>
+  <Frame_ChanPart_3x3_Support.label>シャンデリア(大)(施工)</Frame_ChanPart_3x3_Support.label>
+  <Frame_ChanPart_3x3_Support.description>下にガラスのボウルが付いたシンプルなシャンデリア。 天井からほとんどの物に吊り下げることができます。</Frame_ChanPart_3x3_Support.description>
+  <!-- Bowl -->
+  <ChanPart_1x1_Bowl.label>シャンデリアボウル(小)</ChanPart_1x1_Bowl.label>
+  <ChanPart_1x1_Bowl.description>null</ChanPart_1x1_Bowl.description>
+  <ChanPart_2x2_Bowl.label>シャンデリアボウル</ChanPart_2x2_Bowl.label>
+  <ChanPart_2x2_Bowl.description>null</ChanPart_2x2_Bowl.description>
+  <ChanPart_3x3_Bowl.label>シャンデリアボウル(大)</ChanPart_3x3_Bowl.label>
+  <ChanPart_3x3_Bowl.description>null</ChanPart_3x3_Bowl.description>
+</LanguageData>

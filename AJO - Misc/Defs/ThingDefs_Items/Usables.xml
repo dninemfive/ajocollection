@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+
+	<ThingDef ParentName="ResourceBase">
+		<defName>AJO_SpectagoTea</defName>
+		<label>spectago tea</label>
+		<description>A delicious preparation of brewed spectago leaves and water. Pleasurable to drink.</description>
+		<graphicData>
+			<texPath>Cupro/Item/Usable/SpectagoTea</texPath>
+			<graphicClass>Graphic_Single</graphicClass>
+		</graphicData>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<stackLimit>50</stackLimit>
+		<useHitPoints>false</useHitPoints>
+		<statBases>
+			<DeteriorationRate>0</DeteriorationRate>
+			<Mass>0.3</Mass>
+			<MarketValue>5</MarketValue>
+			<Nutrition>0.02</Nutrition>
+		</statBases>
+		<thingCategories>
+			<li>Drugs</li>
+		</thingCategories>
+		<ingestible>
+			<preferability>NeverForNutrition</preferability>
+			<foodType>Fluid, Processed</foodType>
+			<drugCategory>Social</drugCategory>			
+			<joy>0.10</joy>
+			<joyKind>Meditative</joyKind>
+			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
+      <ingestHoldUsesTable>false</ingestHoldUsesTable>
+			<ingestSound>Ingest_Beer</ingestSound>
+			<ingestHoldOffsetStanding>
+				<northDefault>
+					<offset>(0.18,0,0)</offset>
+				</northDefault>
+			</ingestHoldOffsetStanding>
+			<ingestCommandString>Drink {0}</ingestCommandString>
+			<ingestReportString>Drinking {0}.</ingestReportString>
+			<chairSearchRadius>10</chairSearchRadius>
+			<outcomeDoers>
+				<li Class="IngestionOutcomeDoer_GiveHediff">
+					<hediffDef>AJO_SpectagoTea</hediffDef>
+				</li>
+			</outcomeDoers>
+		</ingestible>
+		<comps>
+      <li Class="CompProperties_Drug">
+        <addictiveness>0</addictiveness>
+        <listOrder>900</listOrder>
+     </li>
+    </comps>
+		<tradeTags>
+			<li>AJO_JoyItem</li>
+		</tradeTags>
+	</ThingDef>
+
+</Defs>
+
+
+
+
+
+

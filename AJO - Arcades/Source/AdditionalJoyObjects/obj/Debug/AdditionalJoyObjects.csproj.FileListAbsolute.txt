@@ -1,0 +1,83 @@
+C:\Users\Cupro\Desktop\RimWorldMods\AJO\Source\AdditionalJoyObjects\bin\Debug\AdditionalJoyObjects.dll
+C:\Users\Cupro\Desktop\RimWorldMods\AJO\Source\AdditionalJoyObjects\bin\Debug\AdditionalJoyObjects.pdb
+C:\Users\Cupro\Desktop\RimWorldMods\AJO\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.csprojResolveAssemblyReference.cache
+C:\Users\Cupro\Desktop\RimWorldMods\AJO\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.dll
+C:\Users\Cupro\Desktop\RimWorldMods\AJO\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.pdb
+C:\Users\cupro\Desktop\cuproMods\AJO\Source\AdditionalJoyObjects\bin\Debug\AdditionalJoyObjects.dll
+C:\Users\cupro\Desktop\cuproMods\AJO\Source\AdditionalJoyObjects\bin\Debug\AdditionalJoyObjects.pdb
+C:\Users\cupro\Desktop\cuproMods\AJO\Source\AdditionalJoyObjects\bin\Debug\Assembly-CSharp.dll
+C:\Users\cupro\Desktop\cuproMods\AJO\Source\AdditionalJoyObjects\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\cupro\Desktop\cuproMods\AJO\Source\AdditionalJoyObjects\bin\Debug\NAudio.dll
+C:\Users\cupro\Desktop\cuproMods\AJO\Source\AdditionalJoyObjects\bin\Debug\NVorbis.dll
+C:\Users\cupro\Desktop\cuproMods\AJO\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.dll
+C:\Users\cupro\Desktop\cuproMods\AJO\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.pdb
+C:\Users\cupro\Desktop\cuproMods\AJO\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.csprojResolveAssemblyReference.cache
+C:\Users\cupro\Desktop\RimWorld\cuproMods\AJO\Source\AdditionalJoyObjects\bin\Debug\AdditionalJoyObjects.dll
+C:\Users\cupro\Desktop\RimWorld\cuproMods\AJO\Source\AdditionalJoyObjects\bin\Debug\AdditionalJoyObjects.pdb
+C:\Users\cupro\Desktop\RimWorld\cuproMods\AJO\Source\AdditionalJoyObjects\bin\Debug\Assembly-CSharp.dll
+C:\Users\cupro\Desktop\RimWorld\cuproMods\AJO\Source\AdditionalJoyObjects\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\cupro\Desktop\RimWorld\cuproMods\AJO\Source\AdditionalJoyObjects\bin\Debug\NAudio.dll
+C:\Users\cupro\Desktop\RimWorld\cuproMods\AJO\Source\AdditionalJoyObjects\bin\Debug\NVorbis.dll
+C:\Users\cupro\Desktop\RimWorld\cuproMods\AJO\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.csprojResolveAssemblyReference.cache
+C:\Users\cupro\Desktop\RimWorld\cuproMods\AJO\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.dll
+C:\Users\cupro\Desktop\RimWorld\cuproMods\AJO\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.pdb
+C:\Users\cupro\Desktop\RimWorld\cuproMods\Additional Joy Objects\Source\AdditionalJoyObjects\bin\Debug\AdditionalJoyObjects.dll
+C:\Users\cupro\Desktop\RimWorld\cuproMods\Additional Joy Objects\Source\AdditionalJoyObjects\bin\Debug\AdditionalJoyObjects.pdb
+C:\Users\cupro\Desktop\RimWorld\cuproMods\Additional Joy Objects\Source\AdditionalJoyObjects\bin\Debug\Assembly-CSharp.dll
+C:\Users\cupro\Desktop\RimWorld\cuproMods\Additional Joy Objects\Source\AdditionalJoyObjects\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\cupro\Desktop\RimWorld\cuproMods\Additional Joy Objects\Source\AdditionalJoyObjects\bin\Debug\NAudio.dll
+C:\Users\cupro\Desktop\RimWorld\cuproMods\Additional Joy Objects\Source\AdditionalJoyObjects\bin\Debug\NVorbis.dll
+C:\Users\cupro\Desktop\RimWorld\cuproMods\Additional Joy Objects\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.csprojResolveAssemblyReference.cache
+C:\Users\cupro\Desktop\RimWorld\cuproMods\Additional Joy Objects\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.dll
+C:\Users\cupro\Desktop\RimWorld\cuproMods\Additional Joy Objects\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.pdb
+C:\Users\Cupro\Desktop\RimWorld\cuproMods\A18\Additional Joy Objects\Source\AdditionalJoyObjects\bin\Debug\AdditionalJoyObjects.dll
+C:\Users\Cupro\Desktop\RimWorld\cuproMods\A18\Additional Joy Objects\Source\AdditionalJoyObjects\bin\Debug\AdditionalJoyObjects.pdb
+C:\Users\Cupro\Desktop\RimWorld\cuproMods\A18\Additional Joy Objects\Source\AdditionalJoyObjects\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\Cupro\Desktop\RimWorld\cuproMods\A18\Additional Joy Objects\Source\AdditionalJoyObjects\bin\Debug\NAudio.dll
+C:\Users\Cupro\Desktop\RimWorld\cuproMods\A18\Additional Joy Objects\Source\AdditionalJoyObjects\bin\Debug\NVorbis.dll
+C:\Users\Cupro\Desktop\RimWorld\cuproMods\A18\Additional Joy Objects\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.csprojResolveAssemblyReference.cache
+C:\Users\Cupro\Desktop\RimWorld\cuproMods\A18\Additional Joy Objects\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.dll
+C:\Users\Cupro\Desktop\RimWorld\cuproMods\A18\Additional Joy Objects\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.pdb
+C:\Users\Cupro\Desktop\RimWorld\cuproMods\A18\Additional Joy Objects\Source\AdditionalJoyObjects\bin\Debug\Assembly-CSharp.dll
+C:\Users\Cupro\Desktop\RimWorld\cuproMods\A18\Additional Joy Objects\Source\AdditionalJoyObjects\bin\Debug\UnityEngine.dll
+C:\Users\Cupro\Desktop\RimWorld\cuproMods\A18\Additional Joy Objects\Source\AdditionalJoyObjects\bin\Debug\TextMeshPro-1.0.55.56.0b11.dll
+C:\Users\Cupro\Desktop\RimWorld\cuproMods\A18\Additional Joy Objects\Source\AdditionalJoyObjects\bin\Debug\UnityEngine.UI.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Additional Joy Objects B19\Source\AdditionalJoyObjects\bin\Debug\AdditionalJoyObjects.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Additional Joy Objects B19\Source\AdditionalJoyObjects\bin\Debug\AdditionalJoyObjects.pdb
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Additional Joy Objects B19\Source\AdditionalJoyObjects\bin\Debug\Assembly-CSharp.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Additional Joy Objects B19\Source\AdditionalJoyObjects\bin\Debug\TextMeshPro-1.0.55.56.0b11.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Additional Joy Objects B19\Source\AdditionalJoyObjects\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Additional Joy Objects B19\Source\AdditionalJoyObjects\bin\Debug\NAudio.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Additional Joy Objects B19\Source\AdditionalJoyObjects\bin\Debug\NVorbis.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Additional Joy Objects B19\Source\AdditionalJoyObjects\bin\Debug\UnityEngine.UI.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Additional Joy Objects B19\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.csprojResolveAssemblyReference.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Additional Joy Objects B19\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.csproj.CoreCompileInputs.cache
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Additional Joy Objects B19\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.csproj.CopyComplete
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Additional Joy Objects B19\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.dll
+C:\Program Files (x86)\Steam\steamapps\common\RimWorld\Mods\Additional Joy Objects B19\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.pdb
+C:\Users\dninemfive\Documents\mods\Rimworld\B19\Additional Joy Objects B19\Source\AdditionalJoyObjects\bin\Debug\AdditionalJoyObjects.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\B19\Additional Joy Objects B19\Source\AdditionalJoyObjects\bin\Debug\AdditionalJoyObjects.pdb
+C:\Users\dninemfive\Documents\mods\Rimworld\B19\Additional Joy Objects B19\Source\AdditionalJoyObjects\bin\Debug\Assembly-CSharp.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\B19\Additional Joy Objects B19\Source\AdditionalJoyObjects\bin\Debug\TextMeshPro-1.0.55.56.0b11.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\B19\Additional Joy Objects B19\Source\AdditionalJoyObjects\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\B19\Additional Joy Objects B19\Source\AdditionalJoyObjects\bin\Debug\NAudio.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\B19\Additional Joy Objects B19\Source\AdditionalJoyObjects\bin\Debug\NVorbis.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\B19\Additional Joy Objects B19\Source\AdditionalJoyObjects\bin\Debug\UnityEngine.UI.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\B19\Additional Joy Objects B19\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.csprojResolveAssemblyReference.cache
+C:\Users\dninemfive\Documents\mods\Rimworld\B19\Additional Joy Objects B19\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.csproj.CoreCompileInputs.cache
+C:\Users\dninemfive\Documents\mods\Rimworld\B19\Additional Joy Objects B19\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.csproj.CopyComplete
+C:\Users\dninemfive\Documents\mods\Rimworld\B19\Additional Joy Objects B19\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\B19\Additional Joy Objects B19\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.pdb
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Additional Joy Objects Lite\Source\AdditionalJoyObjects\bin\Debug\AdditionalJoyObjects.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Additional Joy Objects Lite\Source\AdditionalJoyObjects\bin\Debug\AdditionalJoyObjects.pdb
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Additional Joy Objects Lite\Source\AdditionalJoyObjects\bin\Debug\Assembly-CSharp.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Additional Joy Objects Lite\Source\AdditionalJoyObjects\bin\Debug\TextMeshPro-1.0.55.56.0b11.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Additional Joy Objects Lite\Source\AdditionalJoyObjects\bin\Debug\Assembly-CSharp-firstpass.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Additional Joy Objects Lite\Source\AdditionalJoyObjects\bin\Debug\NAudio.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Additional Joy Objects Lite\Source\AdditionalJoyObjects\bin\Debug\NVorbis.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Additional Joy Objects Lite\Source\AdditionalJoyObjects\bin\Debug\UnityEngine.UI.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Additional Joy Objects Lite\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.csprojResolveAssemblyReference.cache
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Additional Joy Objects Lite\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.csproj.CoreCompileInputs.cache
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Additional Joy Objects Lite\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.csproj.CopyComplete
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Additional Joy Objects Lite\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\Additional Joy Objects Lite\Source\AdditionalJoyObjects\obj\Debug\AdditionalJoyObjects.pdb

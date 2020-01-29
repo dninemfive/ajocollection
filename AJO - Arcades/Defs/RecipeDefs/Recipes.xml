@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Defs>
+	<RecipeDef>
+		<defName>AJO_BrewSpectagoTea</defName>
+		<label>brew spectago tea</label>
+		<description>Brew spectago tea by gently steeping the leaves in hot water.</description>
+		<jobString>Brewing spectago tea</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workAmount>250</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>2</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_RainbowPetals</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_RainbowPetals</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_SpectagoTea>2</AJO_SpectagoTea>
+		</products>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Cooking>2</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>AJO_BrewSpectagoTeaBulk</defName>
+		<label>brew spectago tea in bulk</label>
+		<description>Brew spectago tea by gently steeping the leaves in hot water.</description>
+		<jobString>Brewing spectago tea</jobString>
+		<workSpeedStat>DrugCookingSpeed</workSpeedStat>
+		<workAmount>1000</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_Brewing</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>20</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_RainbowPetals</li>
+					</thingDefs>
+				</filter>
+				<count>20</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>AJO_RainbowPetals</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_SpectagoTea>20</AJO_SpectagoTea>
+		</products>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Cooking>3</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+	
+	<RecipeDef Name="AJO_RecipeInsertion">
+		<defName>AJO_MakePainting</defName>
+		<label>make painting</label>
+		<description>Paint a painting.</description>
+		<jobString>Painting.</jobString>
+		<workAmount>15000</workAmount>
+		<workSpeedStat>SculptingSpeed</workSpeedStat>
+		<workSkill>Artistic</workSkill>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>Cloth</li>
+					</thingDefs>
+				</filter>
+				<count>5</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_PaintingSupplies</li>
+					</thingDefs>
+				</filter>
+				<count>1</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>Cloth</li>
+				<li>AJO_PaintingSupplies</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<unfinishedThingDef>AJO_UnfinishedPainting</unfinishedThingDef>
+		<products>
+			<AJO_Painting>1</AJO_Painting>
+		</products>
+		<recipeUsers>
+			<li>AJO_Easel</li>
+		</recipeUsers>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>AJO_CookPaint</defName>
+		<label>create paint set</label>
+		<description>Create paint by boiling petals of the spectago plant until the gum and pigments bind. Combine with other materials.</description>
+		<jobString>Creating paint set.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workAmount>750</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_RainbowPetals</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>2</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+				<li>AJO_RainbowPetals</li>
+			</thingDefs>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_PaintingSupplies>1</AJO_PaintingSupplies>
+		</products>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Cooking>4</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+	</RecipeDef>
+
+	<RecipeDef>
+		<defName>AJO_CookTemperaPaint</defName>
+		<label>create tempera paint set</label>
+		<description>Create paint by boiling petals of the spectago plant until the gum and pigments bind. Combine with eggs and other materials.</description>
+		<jobString>Creating paint sets.</jobString>
+		<workSpeedStat>CookSpeed</workSpeedStat>
+		<workAmount>750</workAmount>
+		<effectWorking>Cook</effectWorking>
+		<soundWorking>Recipe_CookMeal</soundWorking>
+		<allowMixingIngredients>true</allowMixingIngredients>
+		<targetCountAdjustment>3</targetCountAdjustment>
+		<ingredients>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>AJO_RainbowPetals</li>
+					</thingDefs>
+				</filter>
+				<count>10</count>
+			</li>
+			<li>
+				<filter>
+					<categories>
+						<li>EggsUnfertilized</li>
+						<li>EggsFertilized</li>
+					</categories>
+				</filter>
+				<count>1</count>
+			</li>
+			<li>
+				<filter>
+					<thingDefs>
+						<li>WoodLog</li>
+					</thingDefs>
+				</filter>
+				<count>6</count>
+			</li>
+		</ingredients>
+		<fixedIngredientFilter>
+			<thingDefs>
+				<li>WoodLog</li>
+				<li>AJO_RainbowPetals</li>
+			</thingDefs>
+			<categories>
+				<li>EggsUnfertilized</li>
+				<li>EggsFertilized</li>
+			</categories>
+		</fixedIngredientFilter>
+		<products>
+			<AJO_PaintingSupplies>3</AJO_PaintingSupplies>
+		</products>
+		<recipeUsers>
+			<li>FueledStove</li>
+			<li>ElectricStove</li>
+		</recipeUsers>
+		<skillRequirements>
+			<Cooking>5</Cooking>
+		</skillRequirements>
+		<workSkill>Cooking</workSkill>
+		<researchPrerequisite>AJO_TemperaPainting</researchPrerequisite>
+	</RecipeDef>
+
+</Defs>
