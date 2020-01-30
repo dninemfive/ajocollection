@@ -53,14 +53,14 @@
 		<soundWorking>Recipe_CookMeal</soundWorking>
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<ingredients>
-			<li>
+			<!--li> TODO: patch Rainbow Petals into recipes when Misc is loaded
 				<filter>
 					<thingDefs>
 						<li>AJO_RainbowPetals</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
-			</li>
+			</li-->
 			<li>
 				<filter>
 					<thingDefs>
@@ -73,7 +73,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>WoodLog</li>
-				<li>AJO_RainbowPetals</li>
+				<!--li>AJO_RainbowPetals</li-->
 			</thingDefs>
 		</fixedIngredientFilter>
 		<products>
@@ -101,14 +101,14 @@
 		<allowMixingIngredients>true</allowMixingIngredients>
 		<targetCountAdjustment>3</targetCountAdjustment>
 		<ingredients>
-			<li>
+			<!--li>
 				<filter>
 					<thingDefs>
 						<li>AJO_RainbowPetals</li>
 					</thingDefs>
 				</filter>
 				<count>10</count>
-			</li>
+			</li-->
 			<li>
 				<filter>
 					<categories>
@@ -130,7 +130,7 @@
 		<fixedIngredientFilter>
 			<thingDefs>
 				<li>WoodLog</li>
-				<li>AJO_RainbowPetals</li>
+				<!--li>AJO_RainbowPetals</li-->
 			</thingDefs>
 			<categories>
 				<li>EggsUnfertilized</li>

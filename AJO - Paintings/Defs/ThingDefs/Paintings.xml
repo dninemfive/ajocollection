@@ -29,7 +29,7 @@
 	<!--===================Furniture===================-->
 
 
-	<ThingDef ParentName="OnWallBase">
+	<ThingDef ParentName="AJO_OnWallBase">
 		<defName>AJO_Painting</defName>
 		<thingClass>Building_Art</thingClass>
 		<label>painting</label>

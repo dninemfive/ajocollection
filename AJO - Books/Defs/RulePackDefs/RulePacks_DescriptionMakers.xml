@@ -1,28 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
-	<RulePackDef>
-		<defName>AJO_ArtDescription_Painting</defName>
-		<rulePack>
-			<rulesStrings>
-				<li>r_art_description->This [painting] [pdepicts] [subimageany]</li>
-				<li>r_art_description->This [painting] bears a [depiction] of [subimageany]</li>
-				<li>r_art_description->On this [painting] is a [depiction] of [subimageany]</li>
-				<li>painting->painting</li>
-				<li>painting->work</li>
-				<li>painting->piece</li>
-				<li>painting->canvas</li>
-				<!-- same as for sculptures, except without "shaped like" -->
-				<li>pdepicts->depicts</li>
-				<li>pdepicts->shows</li>
-				<li>pdepicts->portrays</li>
-				<li>pdepicts->resembles</li>
-				<li>pdepicts->illustrates</li>
-				<li>pdepicts->represents</li>
-			</rulesStrings>
-		</rulePack>
-	</RulePackDef>
-
 	<RulePackDef>
 		<defName>AJO_ArtDescription_Book</defName>
 		<rulePack>
