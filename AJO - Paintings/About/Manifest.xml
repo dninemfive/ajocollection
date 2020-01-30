@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<Manifest>
+    <identifier>D9AJOPaintings</identifier>
+    <version>0.0.0</version>
+    <loadAfter>
+		<li>D9Framework</li>
+	</loadAfter>
+    <suggests>
+		<!-- TODO: other AJO mods -->
+		<li>1842663639</li> <!-- Retro Joy -->		
+	</suggests>
+    <showCrossPromotions>true</showCrossPromotions>
+    <manifestUri>https://raw.githubusercontent.com/dninemfive/ajo-lite/master/About/Manifest.xml</manifestUri>
+    <downloadUri>https://github.com/dninemfive/ajo-lite/releases/latest</downloadUri>
+</Manifest>

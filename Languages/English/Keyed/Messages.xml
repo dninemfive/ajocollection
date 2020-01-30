@@ -10,11 +10,11 @@
 	<AJO_ToolTip_ArcadeJoyGain>How quickly colonists gain skill points for the arcade's skill.</AJO_ToolTip_ArcadeJoyGain>
 
 	<!-- Placement Restrictors -->
-	<AJO_MustBePlacedOnWall>{0} must be placed on a wall.</AJO_MustBePlacedOnWall>
+	<D9F_MustBePlacedOnWall>{0} must be placed on a wall.</D9F_MustBePlacedOnWall>
 	
 	<!-- Chandelier -->
-	<AJO_ObjectTooTall>{0} is too tall to place a {1} here</AJO_ObjectTooTall>
-	<AJO_NeedsRoof>{0} needs to be placed under a roof</AJO_NeedsRoof>
+	<D9F_Chandelier_TooTall>{0} is too tall to place a {1} here</D9F_Chandelier_TooTall>
+	<D9F_Roofed_NeedsRoof>{0} needs to be placed under a roof</D9F_Roofed_NeedsRoof>
 
 	<!-- Book Reading Job -->
 	<AJO_Reading>Reading</AJO_Reading>

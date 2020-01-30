@@ -1,6 +1,30 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ThingDef Name="AJO_OnWallBase" ParentName="BuildingBase" Abstract="True">
+		<graphicData>
+			<graphicClass>Graphic_Multi</graphicClass>
+			<drawSize>(3,3)</drawSize>
+		</graphicData>
+		<blockLight>false</blockLight>
+		<altitudeLayer>Pawn</altitudeLayer>
+		<rotatable>true</rotatable>
+		<socialPropernessMatters>true</socialPropernessMatters>
+		<fillPercent>0.0</fillPercent>
+		<passability>PassThroughOnly</passability>
+		<pathCost>0</pathCost>
+		<castEdgeShadows>false</castEdgeShadows>
+		<clearBuildingArea>false</clearBuildingArea>
+		<useHitPoints>true</useHitPoints>
+		<tickerType>Rare</tickerType>
+		<comps>
+			<li Class="D9Framework.CompProperties_Hanger"/>
+		</comps>
+		<placeWorkers>
+			<li>D9Framework.PlaceWorker_AgainstWall</li>
+		</placeWorkers>
+		<minifiedDef>MinifiedThing</minifiedDef>
+	</ThingDef>
 
 	<!--===================Furniture===================-->
 
@@ -11,6 +35,7 @@
 		<label>painting</label>
 		<description>A painting. Useful for covering up holes, and quite easy on the eyes.</description>
 		<graphicData>
+			<!-- TODO: Graphic_RandomRotated -->
 			<texPath>Cupro/Object/Furniture/Painting/Painting</texPath>
 		</graphicData>
 		<uiIconPath>Cupro/Object/Furniture/Painting/Painting_MenuIcon</uiIconPath>

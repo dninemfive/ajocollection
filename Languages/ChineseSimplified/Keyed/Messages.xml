@@ -10,11 +10,11 @@
   <AJO_ToolTip_ArcadeJoyGain>玩街机时获得特定技能经验值的速度。</AJO_ToolTip_ArcadeJoyGain>
 
   <!-- Placement Restrictors -->
-  <AJO_MustBePlacedOnWall>{0}必须靠墙而建。</AJO_MustBePlacedOnWall>
+  <D9F_MustBePlacedOnWall>{0}必须靠墙而建。</D9F_MustBePlacedOnWall>
 
   <!-- Chandelier -->
-  <AJO_ObjectTooTall>{0}太高了，不能在{1}上放置</AJO_ObjectTooTall>
-  <AJO_NeedsRoof>{0}需要放置于屋顶下</AJO_NeedsRoof>
+  <D9F_Chandelier_TooTall>{0}太高了，不能在{1}上放置</D9F_Chandelier_TooTall>
+  <D9F_Roofed_NeedsRoof>{0}需要放置于屋顶下</D9F_Roofed_NeedsRoof>
 
   <!-- Book Reading Job -->
   <AJO_Reading>正在阅读</AJO_Reading>
