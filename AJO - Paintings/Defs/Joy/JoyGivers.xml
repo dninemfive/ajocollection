@@ -34,4 +34,18 @@
 		</requiredCapacities>
 	</JoyGiverDef>
 
+	<JoyGiverDef>
+		<defName>AJO_DrinkSpectagoTea</defName>
+		<giverClass>JoyGiver_Ingest</giverClass>
+		<baseChance>2</baseChance>
+		<thingDefs>
+			<li>AJO_SpectagoTea</li>
+		</thingDefs>
+		<joyKind>Gluttonous</joyKind>
+		<requiredCapacities>
+			<li>Eating</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+
 </Defs>
