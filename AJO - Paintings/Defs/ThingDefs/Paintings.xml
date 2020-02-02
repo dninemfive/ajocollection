@@ -171,4 +171,16 @@
 		<rotatable>false</rotatable>
 		<pathCost>15</pathCost>
 	</ThingDef>
+	
+	<ThingDef ParentName="UnfinishedBase">
+		<defName>AJO_UnfinishedPainting</defName>
+		<label>Unfinished painting</label>
+		<graphicData>
+			<texPath>Cupro/Item/Unfinished/UnfinishedPainting</texPath>
+		</graphicData>
+		<stuffCategories>
+			<li>Fabric</li>
+			<li>AJO_Paint</li>
+		</stuffCategories>
+	</ThingDef>
 </Defs>
