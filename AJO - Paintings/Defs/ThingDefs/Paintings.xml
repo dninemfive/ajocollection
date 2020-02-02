@@ -16,9 +16,11 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<clearBuildingArea>false</clearBuildingArea>
 		<useHitPoints>true</useHitPoints>
-		<tickerType>Rare</tickerType>
+		<tickerType>Normal</tickerType>
 		<comps>
-			<li Class="D9Framework.CompProperties_Hanger"/>
+			<li Class="D9Framework.CompProperties_Validator">
+				<tickInterval>250</tickInterval>
+			</li>
 		</comps>
 		<placeWorkers>
 			<li>D9Framework.PlaceWorker_AgainstWall</li>
