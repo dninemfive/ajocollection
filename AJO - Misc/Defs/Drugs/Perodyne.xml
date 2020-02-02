@@ -42,7 +42,7 @@
     </recipeMaker>
     <costList>
       <Neutroamine>2</Neutroamine>
-			<AJO_RainbowPetals>2</AJO_RainbowPetals>
+	<!-- TODO: patch in if AJO - Paintings is installed <AJO_RainbowPetals>2</AJO_RainbowPetals-->
     </costList>
 		<tickerType>Rare</tickerType>
 		<comps>
