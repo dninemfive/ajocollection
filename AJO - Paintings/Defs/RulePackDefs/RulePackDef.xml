@@ -5,9 +5,9 @@
 		<defName>AJO_ArtDescription_Painting</defName>
 		<rulePack>
 			<rulesStrings>
-				<li>r_art_description->This [painting] [pdepicts] [subimageany]</li>
-				<li>r_art_description->This [painting] bears a [depiction] of [subimageany]</li>
-				<li>r_art_description->On this [painting] is a [depiction] of [subimageany]</li>
+				<li>r_art_description->This [painting] [pdepicts] [subimageany]. [desc_sentence_group]</li>
+				<li>r_art_description->This [painting] bears a [depiction] of [subimageany]. [desc_sentence_group]</li>
+				<li>r_art_description->On this [painting] is a [depiction] of [subimageany]. [desc_sentence_group]</li>
 				<li>painting->painting</li>
 				<li>painting->work</li>
 				<li>painting->piece</li>
