@@ -7,15 +7,15 @@
 		<description>A delicious preparation of brewed spectago leaves and water. Pleasurable to drink.</description>
 		<graphicData>
 			<texPath>Cupro/Item/Usable/SpectagoTea</texPath>
-			<graphicClass>Graphic_Single</graphicClass>
+			<graphicClass>Graphic_Single</graphicClass> <!-- TODO: Graphic_StackCount -->
 		</graphicData>
 		<socialPropernessMatters>true</socialPropernessMatters>
-		<stackLimit>50</stackLimit>
+		<stackLimit>150</stackLimit>
 		<useHitPoints>false</useHitPoints>
 		<statBases>
 			<DeteriorationRate>0</DeteriorationRate>
 			<Mass>0.3</Mass>
-			<MarketValue>5</MarketValue>
+			<MarketValue>8</MarketValue>
 			<Nutrition>0.02</Nutrition>
 		</statBases>
 		<thingCategories>
@@ -29,7 +29,7 @@
 			<joyKind>Meditative</joyKind>
 			<maxNumToIngestAtOnce>1</maxNumToIngestAtOnce>
       <ingestHoldUsesTable>false</ingestHoldUsesTable>
-			<ingestSound>Ingest_Beer</ingestSound>
+			<ingestSound>Ingest_Drink</ingestSound>
 			<ingestHoldOffsetStanding>
 				<northDefault>
 					<offset>(0.18,0,0)</offset>
