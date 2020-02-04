@@ -53,8 +53,7 @@
 		<altitudeLayer>MoteOverhead</altitudeLayer>
 		<tickerType>Rare</tickerType>
 		<placeWorkers>
-			<li>AdditionalJoyObjects.PlaceWorker_Roofed</li>
-			<li>AdditionalJoyObjects.PlaceWorker_Chandelier</li>
+			<li>D9Framework.PlaceWorker_RoofHanger</li>
 		</placeWorkers>
 		<tradeTags>
 			<li>Furniture</li>
@@ -63,9 +62,7 @@
 			<li>
 				<compClass>CompQuality</compClass>
 			</li>
-			<li Class="AdditionalJoyObjects.CompProperties_Hanger">
-				<hangingType>Ceiling</hangingType>
-			</li>
+			<li Class="D9Framework.CompProperties_Validator"/>
 			<li Class="CompProperties_Flickable"/>
 		</comps>
 	</ThingDef>

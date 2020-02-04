@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Additional Joy Objects - Misc</name>
-  <author>cuproPanda, updated by dninemfive</author>
+  <author>dninemfive, originally by cuproPanda</author>
   <supportedVersions><li>1.0</li></supportedVersions>
-  <description>Perodyne, Darts, RimColony, Chandeliers.</description>
+  <description>Adds in miscellaneous small features from the original mod - darts, RimColony, chandeliers, and Perodyne.</description>
 </ModMetaData>
