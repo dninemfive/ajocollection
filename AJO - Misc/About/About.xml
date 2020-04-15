@@ -1,7 +1,19 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Additional Joy Objects - Misc</name>
-  <author>dninemfive, originally by cuproPanda</author>
-  <supportedVersions><li>1.0</li></supportedVersions>
+  <author>dninemfive, cuproPanda</author>
+  <supportedVersions><li>1.1</li></supportedVersions>
+  <packageId>dninemfive.ajo.misc</packageId>
   <description>Adds in miscellaneous small features from the original mod - darts, RimColony, chandeliers, and Perodyne.</description>
+  <loadAfter>
+	<li>dninemfive.d9framework</li>
+  </loadAfter>
+  <modDependencies>
+	<li>
+		<displayName>D9 Framework</displayName>
+		<packageId>dninemfive.d9framework</packageId>
+		<downloadUrl>https://github.com/dninemfive/d9framework/releases</downloadUrl>
+		<steamWorkshopUrl>steam://url/CommunityFilePage/2037445541</steamWorkshopUrl>
+	</li>
+  </modDependencies>
 </ModMetaData>
