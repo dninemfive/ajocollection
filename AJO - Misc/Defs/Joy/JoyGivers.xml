@@ -25,7 +25,7 @@
 			<li>AJO_RimColony</li>
 		</thingDefs>
 		<jobDef>AJO_PlayRimColony</jobDef>
-		<joyKind>AJO_Gaming_Social</joyKind>
+		<joyKind>Gaming_Dexterity</joyKind> <!-- todo: AJO_Gaming_Social -->
 		<requiredCapacities>
 			<li>Sight</li>
 			<li>Manipulation</li>

@@ -4,7 +4,8 @@
 
 	<JobDef>
 		<defName>AJO_PlayDarts</defName>
-		<driverClass>AdditionalJoyObjects.JobDriver_Dartboard</driverClass>
+		<!--driverClass>AdditionalJoyObjects.JobDriver_Dartboard</driverClass> TODO: update -->
+		<driverClass>JobDriver_WatchBuilding</driverClass>
 		<reportString>Playing darts.</reportString>
 		<joyDuration>4000</joyDuration>
 		<joyMaxParticipants>3</joyMaxParticipants>
@@ -23,7 +24,7 @@
 		<joyGainRate>0.8</joyGainRate>
 		<joySkill>Social</joySkill>
 		<joyXpPerTick>0.001</joyXpPerTick>
-		<joyKind>AJO_Gaming_Social</joyKind>
+		<joyKind>Gaming_Dexterity</joyKind> <!-- todo: AJO_Gaming_Social -->
 	</JobDef>
 
 </Defs>

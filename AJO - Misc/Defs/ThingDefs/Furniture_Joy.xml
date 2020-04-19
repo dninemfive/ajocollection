@@ -1,21 +1,6 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-	<ThingDef Name="AJOBuildingBase" Abstract="True">
-    <category>Building</category>
-    <thingClass>Building</thingClass>
-    <soundImpactDefault>BulletImpact_Metal</soundImpactDefault>
-    <selectable>true</selectable>
-    <drawerType>MapMeshAndRealTime</drawerType>
-    <terrainAffordanceNeeded>Light</terrainAffordanceNeeded>
-    <repairEffect>Repair</repairEffect>
-    <leaveResourcesWhenKilled>true</leaveResourcesWhenKilled>
-    <filthLeaving>Filth_RubbleBuilding</filthLeaving>
-		<statBases>
-			<SellPriceFactor>0.70</SellPriceFactor>
-		</statBases>
-  </ThingDef>
-
-	<ThingDef Name="OnWallBase" ParentName="AJOBuildingBase" Abstract="True">
+	<ThingDef Name="D9AJO_OnWallBase" ParentName="BuildingBase" Abstract="True">
 		<graphicData>
 			<graphicClass>Graphic_Multi</graphicClass>
 			<drawSize>(3,3)</drawSize>
@@ -30,20 +15,17 @@
 		<castEdgeShadows>false</castEdgeShadows>
 		<clearBuildingArea>false</clearBuildingArea>
 		<useHitPoints>true</useHitPoints>
-		<tickerType>Rare</tickerType>
+		<tickerType>Normal</tickerType>
 		<comps>
-			<li Class="AdditionalJoyObjects.CompProperties_Hanger">
-				<hangingType>Wall</hangingType>
-				<wallHeight>High</wallHeight>
-			</li>
+			<li Class="D9Framework.CompProperties_Validator"/>
 		</comps>
 		<placeWorkers>
-			<li>AdditionalJoyObjects.PlaceWorker_AgainstWall</li>
+			<li>D9Framework.PlaceWorker_AgainstWall</li>
 		</placeWorkers>
 		<minifiedDef>MinifiedThing</minifiedDef>
 	</ThingDef>
 
-	<ThingDef Name="JoyTableBase" ParentName="FurnitureBase" Abstract="True">
+	<ThingDef Name="D9AJO_JoyTableBase" ParentName="FurnitureBase" Abstract="True">
 		<graphicData>
 			<graphicClass>Graphic_Single</graphicClass>
 			<shadowData>
@@ -78,10 +60,10 @@
 	<!-- ========================== Joy Tables ============================== -->
 
 
-	<ThingDef ParentName="JoyTableBase">
+	<ThingDef ParentName="D9AJO_JoyTableBase">
 		<defName>AJO_RimColony</defName>
 		<label>RimColony</label>
-		<description>RimColony is a game about building and sustaining a colony after crash landing on a rim world. Some roaming trader had a twisted sense of humor bringing this along.</description>
+		<description>RimColony is a game about building and sustaining a colony after crash landing on a rimworld. Some roaming trader had a twisted sense of humor bringing this along.</description>
 		<graphicData>
 			<texPath>Cupro/Object/Furniture/RimColony</texPath>
 		</graphicData>
@@ -96,7 +78,7 @@
 			<li>AJO_Joy</li>
 		</tradeTags>
 		<building>
-			<joyKind>AJO_Gaming_Social</joyKind>
+			<joyKind>Gaming_Dexterity</joyKind> <!-- todo: AJO_Gaming_Social -->
 		</building>
 	</ThingDef>
 
@@ -105,7 +87,7 @@
 
 
 
-	<ThingDef ParentName="OnWallBase">
+	<ThingDef ParentName="D9AJO_OnWallBase">
 		<defName>AJO_Dartboard</defName>
 		<label>dartboard</label>
 		<description>A game about accuracy often played at pubs and bars. Players throw darts from a distance and attempt to get them to hit certain areas on the board. It's relaxing, and even trains hand-eye coordination.</description>

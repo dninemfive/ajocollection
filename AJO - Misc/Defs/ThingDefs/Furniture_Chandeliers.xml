@@ -51,7 +51,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="D9AJO_ChandelierBase">
-		<defName>D9AJO_Chandelier_1x1</defName>
+		<defName>D9AJO_Chandelier_1x</defName>
 		<label>small chandelier</label>
 		<graphicData>
 			<texPath>Cupro/Object/Furniture/Chandelier/LargeChandelier</texPath>
@@ -78,7 +78,7 @@
 	</ThingDef>
 	
 	<ThingDef ParentName="D9AJO_ChandelierBase">
-		<defName>D9AJO_Chandelier_2x2</defName>
+		<defName>D9AJO_Chandelier_2x</defName>
 		<label>chandelier</label>
 		<description>A simple chandelier with a glass bowl underneath. Can be hung from the ceiling over most objects.</description>
 		<graphicData>
@@ -106,7 +106,7 @@
 	</ThingDef>
 
 	<ThingDef ParentName="D9AJO_ChandelierBase">
-		<defName>D9AJO_Chandelier_3x3</defName>
+		<defName>D9AJO_Chandelier_3x</defName>
 		<label>large chandelier</label>
 		<description>A simple chandelier with a glass bowl underneath. Can be hung from the ceiling over most objects.</description>
 		<graphicData>

@@ -4,7 +4,7 @@
 		<defName>AJO_PerodyneProduction</defName>
 		<label>perodyne production</label>
 		<description>Learn to produce the Euphoria-inducing painkillers perodyne.</description>
-		<tab>cP</tab>
+		<tab>AJO_rTab</tab>
 		<baseCost>800</baseCost>
 		<techLevel>Industrial</techLevel>
 		<prerequisites>
