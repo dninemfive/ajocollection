@@ -42,10 +42,7 @@
 			</wildBiomes>
 			<wildClusterWeight>100</wildClusterWeight>
 			<wildClusterRadius>6</wildClusterRadius>
-			<visualSizeRange>
-				<min>0.3</min>
-				<max>1.5</max>
-			</visualSizeRange>
+			<visualSizeRange>0.3~1.5</visualSizeRange>
 		</plant>
 	</ThingDef>
 

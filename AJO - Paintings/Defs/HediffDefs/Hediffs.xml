@@ -6,6 +6,7 @@
 		<defName>AJO_SpectagoTea</defName>
 		<hediffClass>HediffWithComps</hediffClass>
 		<label>spectago tea</label>
+		<description>Spectago tea in the bloodstream. Has a calming effect.</description>
 		<defaultLabelColor>(0,0.5,0.3)</defaultLabelColor>
 		<initialSeverity>0.18</initialSeverity>
 		<comps>
