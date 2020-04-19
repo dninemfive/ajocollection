@@ -1,18 +1,13 @@
 # Additional Joy Objects Collection
-![version](https://img.shields.io/badge/RimWorld-1.1-brightgreen.svg) ![license](https://img.shields.io/badge/License-MIT-lightgreen.svg)
+![version](https://img.shields.io/badge/RimWorld-1.1-brightgreen.svg) ![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)
 
 ![modVersion](https://img.shields.io/badge/Misc-0.0.0-orange.svg)
-
 ![modVersion](https://img.shields.io/badge/Paintings-0.0.0-orange.svg)
 
 ![modVersion](https://img.shields.io/badge/Arcades-0.0.0-red.svg)
-
 ![modVersion](https://img.shields.io/badge/Bonsai-0.0.0-red.svg)
-
 ![modVersion](https://img.shields.io/badge/Plushies-0.0.0-red.svg)
-
 ![modVersion](https://img.shields.io/badge/Computers-0.0.0-red.svg)
-
 ![modVersion](https://img.shields.io/badge/Books-0.0.0-red.svg)
 
 A modularized and updated version of Additional Joy Objects.
