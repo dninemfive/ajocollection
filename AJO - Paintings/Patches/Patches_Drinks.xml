@@ -1,9 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
 <Patch>
-    <!-- IF Cupro's Drinks - Core is installed: merge categories -->
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>Cupro's Drinks - Core</li>
-        </mods>
+    <Operation Class="D9Framework.PatchOperationFindpackage">
+        <packageIds>
+            <li>dismarzero.VGP.CuproPandasDrinks</li>
+        </packageIds>
         <match Class="PatchOperationSequence">
             <operations>
                 <li Class="PatchOperationReplace">

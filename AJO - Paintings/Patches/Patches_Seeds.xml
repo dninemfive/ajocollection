@@ -1,9 +1,8 @@
 <Patch>
-    <!-- IF SeedsPlease is installed: Change_by_doing_what_is_stated -->
-    <Operation Class="PatchOperationFindMod">
-        <mods>
-            <li>SeedsPlease</li>
-        </mods>
+    <Operation Class="D9Framework.PatchOperationFindPackage">
+        <packageIds>
+            <li>notfood.SeedsPlease</li>
+        </packageIds>
         <match Class="PatchOperationSequence">
             <operations>
                 <li Class="PatchOperationAdd">
