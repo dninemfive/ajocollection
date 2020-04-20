@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using UnityEngine;
 using Verse;
+using RimWorld;
 
 namespace AJOMisc
 {
@@ -15,9 +16,11 @@ namespace AJOMisc
         
         public override void PostDraw()
         {
-            //todo: SetTRS to calculate size of parent
             Matrix4x4 matrix = default(Matrix4x4);
-            matrix.SetTRS(base.parent.DrawPos, default(Quaternion), new Vector3(base.parent.def.graphicData.drawSize.x, 1f, base.parent.def.graphicData.drawSize.y));
+            Vector2 drawSize = base.parent.def.graphicData.drawSize;
+            matrix.SetTRS(base.parent.TrueCenter(),
+                          Quaternion.identity,
+                          new Vector3(drawSize.x, drawSize.y, 1f)); // I'm actually not sure if Vector2.y corresponds to Vector3.y or Vector3.z in RW's world, but this shouldn't:tm: matter
             Graphics.DrawMesh(MeshPool.plane10, default(Matrix4x4), BowlMat, 0);
         }
 

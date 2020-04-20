@@ -58,7 +58,7 @@
 		<defName>D9AJO_Chandelier_1x</defName>
 		<label>small chandelier</label>
 		<graphicData>			
-			<drawSize>(0.9,0.9)</drawSize>
+			<drawSize>(0.8,0.8)</drawSize>
 		</graphicData>
 		<size>(1,1)</size>
 		<statBases>
@@ -85,7 +85,7 @@
 		<label>chandelier</label>
 		<description>A simple chandelier with a glass bowl underneath. Can be hung from the ceiling over most objects.</description>
 		<graphicData>
-			<drawSize>(1.8,1.8)</drawSize>
+			<drawSize>(1.6,1.6)</drawSize>
 		</graphicData>
 		<size>(2,2)</size>
 		<statBases>
@@ -112,7 +112,7 @@
 		<label>large chandelier</label>
 		<description>A simple chandelier with a glass bowl underneath. Can be hung from the ceiling over most objects.</description>
 		<graphicData>
-			<drawSize>(2.7,2.7)</drawSize>
+			<drawSize>(2.2,2.2)</drawSize>
 		</graphicData>
 		<size>(3,3)</size>
 		<statBases>
