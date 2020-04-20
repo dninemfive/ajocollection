@@ -20,8 +20,7 @@
 	
 	<JobDef>
 		<defName>AJO_PlayDarts</defName>
-		<!--driverClass>AdditionalJoyObjects.JobDriver_Dartboard</driverClass> TODO: update -->
-		<driverClass>JobDriver_WatchBuilding</driverClass>
+		<driverClass>AJOMisc.JobDriver_Dartboard</driverClass>
 		<reportString>Playing darts.</reportString>
 		<joyDuration>4000</joyDuration>
 		<joyMaxParticipants>3</joyMaxParticipants>

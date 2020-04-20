@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2037
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AJOMisc", "AJOMisc\AJOMisc.csproj", "{BB2B1EDC-9B2B-4859-87FF-30AE4A750685}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{BB2B1EDC-9B2B-4859-87FF-30AE4A750685}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BB2B1EDC-9B2B-4859-87FF-30AE4A750685}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BB2B1EDC-9B2B-4859-87FF-30AE4A750685}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BB2B1EDC-9B2B-4859-87FF-30AE4A750685}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {0957456B-8158-4CDD-8C65-CCDCCD22678C}
+	EndGlobalSection
+EndGlobal
