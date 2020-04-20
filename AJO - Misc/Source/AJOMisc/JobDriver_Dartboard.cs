@@ -48,7 +48,7 @@ namespace AJOMisc
             GenSpawn.Spawn(moteThrown, thrower.Position, thrower.Map);
         }
     }
-    [StaticConstructorOnStartup]
+    [DefOf]
     public static class AjoMiscDefOf
     {
         public static ThingDef AJO_Mote_RedDart, AJO_Mote_GreenDart, AJO_Mote_BlueDart;

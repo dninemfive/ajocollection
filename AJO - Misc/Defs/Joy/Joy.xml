@@ -20,7 +20,7 @@
 	
 	<JobDef>
 		<defName>AJO_PlayDarts</defName>
-		<driverClass>AJOMisc.JobDriver_Dartboard</driverClass>
+		<driverClass>AJOMisc.JobDriver_Dartboart</driverClass>
 		<reportString>Playing darts.</reportString>
 		<joyDuration>4000</joyDuration>
 		<joyMaxParticipants>3</joyMaxParticipants>
