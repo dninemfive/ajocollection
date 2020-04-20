@@ -1,7 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
-
 <Defs>
-
+	
+	<!-- Darts -->
+	<JoyGiverDef>
+		<defName>AJO_PlayDarts</defName>
+		<giverClass>JoyGiver_WatchBuilding</giverClass>
+		<baseChance>2.3</baseChance>
+		<thingDefs>
+			<li>AJO_Dartboard</li>
+		</thingDefs>
+		<jobDef>AJO_PlayDarts</jobDef>
+		<desireSit>false</desireSit>
+		<joyKind>Gaming_Dexterity</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>
+	
 	<JobDef>
 		<defName>AJO_PlayDarts</defName>
 		<!--driverClass>AdditionalJoyObjects.JobDriver_Dartboard</driverClass> TODO: update -->
@@ -14,6 +30,22 @@
 		<joyXpPerTick>0.003</joyXpPerTick>
 		<joyKind>Gaming_Dexterity</joyKind>
 	</JobDef>
+	
+	<!-- RimColony -->
+	<JoyGiverDef>
+		<defName>AJO_PlayRimColony</defName>
+		<giverClass>JoyGiver_InteractBuildingSitAdjacent</giverClass>
+		<baseChance>2.5</baseChance>
+		<thingDefs>
+			<li>AJO_RimColony</li>
+		</thingDefs>
+		<jobDef>AJO_PlayRimColony</jobDef>
+		<joyKind>Gaming_Cerebral</joyKind>
+		<requiredCapacities>
+			<li>Sight</li>
+			<li>Manipulation</li>
+		</requiredCapacities>
+	</JoyGiverDef>	
 
 	<JobDef>
 		<defName>AJO_PlayRimColony</defName>
@@ -24,7 +56,7 @@
 		<joyGainRate>0.8</joyGainRate>
 		<joySkill>Social</joySkill>
 		<joyXpPerTick>0.001</joyXpPerTick>
-		<joyKind>Gaming_Dexterity</joyKind> <!-- todo: AJO_Gaming_Social -->
+		<joyKind>Gaming_Cerebral</joyKind>
 	</JobDef>
 
 </Defs>

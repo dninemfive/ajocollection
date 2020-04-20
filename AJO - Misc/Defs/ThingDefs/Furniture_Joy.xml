@@ -78,7 +78,7 @@
 			<li>AJO_Joy</li>
 		</tradeTags>
 		<building>
-			<joyKind>Gaming_Dexterity</joyKind> <!-- todo: AJO_Gaming_Social -->
+			<joyKind>Gaming_Cerebral</joyKind>
 		</building>
 	</ThingDef>
 
