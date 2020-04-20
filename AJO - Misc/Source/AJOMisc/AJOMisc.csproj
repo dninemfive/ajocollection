@@ -52,6 +52,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CompChandelierBowl.cs" />
     <Compile Include="JobDriver_Dartboard.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
