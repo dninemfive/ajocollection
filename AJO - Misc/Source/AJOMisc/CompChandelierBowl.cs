@@ -12,7 +12,7 @@ namespace AJOMisc
     [StaticConstructorOnStartup]
     class CompChandelierBowl : ThingComp
     {
-        private static readonly Material BowlMat = MaterialPool.MatFrom("Cupro/Object/Furniture/Chandelier/New/LargeChandelierGlass");
+        private static readonly Material BowlMat = MaterialPool.MatFrom("Cupro/Object/Furniture/Chandelier/New/LargeChandelierGlass", ShaderDatabase.Transparent);
         
         public override void PostDraw()
         {
