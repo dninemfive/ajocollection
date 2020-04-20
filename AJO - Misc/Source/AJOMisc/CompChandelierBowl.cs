@@ -20,8 +20,8 @@ namespace AJOMisc
             Vector2 drawSize = base.parent.def.graphicData.drawSize;
             matrix.SetTRS(base.parent.TrueCenter(),
                           Quaternion.identity,
-                          new Vector3(drawSize.x, drawSize.y, 1f)); // I'm actually not sure if Vector2.y corresponds to Vector3.y or Vector3.z in RW's world, but this shouldn't:tm: matter
-            Graphics.DrawMesh(MeshPool.plane10, default(Matrix4x4), BowlMat, 0);
+                          new Vector3(drawSize.x, 1f, drawSize.y));
+            Graphics.DrawMesh(MeshPool.plane10, matrix, BowlMat, 0);
         }
 
         public override string CompInspectStringExtra()
