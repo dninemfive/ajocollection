@@ -9,7 +9,7 @@ using RimWorld;
 
 namespace AJOMisc
 {
-    public class JobDriver_Dartboart : JobDriver_WatchBuilding
+    public class JobDriver_Dartboard : JobDriver_WatchBuilding
     {
         private static int dartThrowInterval = 400; // probably not worth exposing to XML. Not using const just in case someone needs to change.
         private static float dartSpeed = 20f;
