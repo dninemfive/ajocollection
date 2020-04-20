@@ -125,7 +125,6 @@
 					<max>20</max>
 				</countRange>
 			</li>
-			<li Class="StockGenerator_BuyWeirdOrganic" />
 		</stockGenerators>
 	</TraderKindDef>
 
