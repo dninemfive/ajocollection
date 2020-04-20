@@ -6,3 +6,11 @@ C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_AJO Split\AJO - Misc\Source\AJ
 C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_AJO Split\AJO - Misc\Source\AJOMisc\AJOMisc\obj\Debug\AJOMisc.csproj.CopyComplete
 C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_AJO Split\AJO - Misc\Source\AJOMisc\AJOMisc\obj\Debug\AJOMisc.dll
 C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_AJO Split\AJO - Misc\Source\AJOMisc\AJOMisc\obj\Debug\AJOMisc.pdb
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_AJO Split\AJO - Misc\Source\AJOMisc\bin\Debug\AJOMisc.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_AJO Split\AJO - Misc\Source\AJOMisc\bin\Debug\AJOMisc.pdb
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_AJO Split\AJO - Misc\Source\AJOMisc\obj\Debug\AJOMisc.csprojResolveAssemblyReference.cache
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_AJO Split\AJO - Misc\Source\AJOMisc\obj\Debug\AJOMisc.csproj.CoreCompileInputs.cache
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_AJO Split\AJO - Misc\Source\AJOMisc\obj\Debug\AJOMisc.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_AJO Split\AJO - Misc\Source\AJOMisc\obj\Debug\AJOMisc.pdb
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_AJO Split\AJO - Misc\Assemblies\AJOMisc.dll
+C:\Users\dninemfive\Documents\mods\Rimworld\F1.0\_AJO Split\AJO - Misc\Assemblies\AJOMisc.pdb

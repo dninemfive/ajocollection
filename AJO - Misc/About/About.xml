@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Additional Joy Objects - Misc</name>
-  <author>dninemfive, cuproPanda</author>
+  <name>AJO - Misc</name>
+  <author>cuproPanda, updated by dninemfive</author>
   <supportedVersions><li>1.1</li></supportedVersions>
   <packageId>dninemfive.ajo.misc</packageId>
   <description>Adds in miscellaneous small features from the original mod - darts, RimColony, chandeliers, pleasure cruisers, and Perodyne.</description>
