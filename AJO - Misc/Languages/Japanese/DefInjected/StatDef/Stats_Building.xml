@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AJO_WritingSpeedFactor.label>部屋の印象</AJO_WritingSpeedFactor.label>
+  <AJO_WritingSpeedFactor.description>執筆する速度に掛ける倍率です。</AJO_WritingSpeedFactor.description>
+  <AJO_WritingSpeedFactor.parts.Impressiveness.customLabel>印象的</AJO_WritingSpeedFactor.parts.Impressiveness.customLabel>
+</LanguageData>

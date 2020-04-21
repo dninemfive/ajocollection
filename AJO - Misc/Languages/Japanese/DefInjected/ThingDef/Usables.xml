@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AJO_SpectagoTea.label>スペクタゴティー</AJO_SpectagoTea.label>
+  <AJO_SpectagoTea.description>醸造されたスペクタゴの葉と水が美味しく準備できました。飲むのがとても楽しみです。</AJO_SpectagoTea.description>
+  <AJO_SpectagoTea.ingestible.ingestCommandString>{0}を飲む</AJO_SpectagoTea.ingestible.ingestCommandString>
+  <AJO_SpectagoTea.ingestible.ingestReportString>{0}を飲んでいる。</AJO_SpectagoTea.ingestible.ingestReportString>
+
+
+</LanguageData>

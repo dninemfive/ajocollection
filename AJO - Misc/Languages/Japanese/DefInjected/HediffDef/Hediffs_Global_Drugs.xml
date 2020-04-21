@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <PerodyneHigh.label>ペロダインに酔っている</PerodyneHigh.label>
+  <PerodyneHigh.stages.initialhidden.label>変化なし</PerodyneHigh.stages.initialhidden.label>
+  <PerodyneHigh.stages.comfortable.label>いい気分</PerodyneHigh.stages.comfortable.label>
+  <PerodyneHigh.stages.buzzed.label>ほろ酔い</PerodyneHigh.stages.buzzed.label>
+  <PerodyneHigh.stages.numb.label>酩酊</PerodyneHigh.stages.numb.label>
+  <PerodyneHigh.stages.floating_by.label>泥酔</PerodyneHigh.stages.floating_by.label>
+  <PerodyneHigh.stages.wasted.label>意識不明</PerodyneHigh.stages.wasted.label>
+  <PerodyneTolerance.label>ペロダイン耐性</PerodyneTolerance.label>
+  <PerodyneTolerance.stages.small-0.label>小</PerodyneTolerance.stages.small-0.label>
+  <PerodyneTolerance.stages.small-1.label>小</PerodyneTolerance.stages.small-1.label>
+  <PerodyneTolerance.stages.large.label>大</PerodyneTolerance.stages.large.label>
+  <PerodyneTolerance.stages.massive.label>極大</PerodyneTolerance.stages.massive.label>
+  <PerodyneAddiction.label>ペロダイン中毒</PerodyneAddiction.label>
+  <PerodyneAddiction.stages.withdrawal.label>禁断症状</PerodyneAddiction.stages.withdrawal.label>
+</LanguageData>

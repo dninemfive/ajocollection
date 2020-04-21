@@ -1,0 +1,45 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <AJO_MakeCartHomebrew.label>自作ゲームを製作します。</AJO_MakeCartHomebrew.label>
+  <AJO_MakeCartHomebrew.description>ゲーム機でプレイできる自作のゲームを製作します。</AJO_MakeCartHomebrew.description>
+  <AJO_MakeCartHomebrew.jobString>ゲームを作っている。</AJO_MakeCartHomebrew.jobString>
+  <AJO_CopyCartHomebrew.label>自作ゲームをコピーします。</AJO_CopyCartHomebrew.label>
+  <AJO_CopyCartHomebrew.description>ゲームソフトを複製します。</AJO_CopyCartHomebrew.description>
+  <AJO_CopyCartHomebrew.jobString>コピー中。</AJO_CopyCartHomebrew.jobString>
+  <AJO_CopyCartRS.label>Rum Swirledをコピーします。</AJO_CopyCartRS.label>
+  <AJO_CopyCartRS.description>ゲームソフトを複製します。</AJO_CopyCartRS.description>
+  <AJO_CopyCartRS.jobString>コピー中。</AJO_CopyCartRS.jobString>
+  <AJO_CopyCartMC.label>MintCraftをコピーします。</AJO_CopyCartMC.label>
+  <AJO_CopyCartMC.description>ゲームソフトを複製します。</AJO_CopyCartMC.description>
+  <AJO_CopyCartMC.jobString>コピー中。</AJO_CopyCartMC.jobString>
+  <AJO_CopyCartHL.label>Halva Lifeをコピーします。</AJO_CopyCartHL.label>
+  <AJO_CopyCartHL.description>ゲームソフトを複製します。</AJO_CopyCartHL.description>
+  <AJO_CopyCartHL.jobString>コピー中。</AJO_CopyCartHL.jobString>
+  <AJO_CopyCartES.label>Elder Sconesをコピーします。</AJO_CopyCartES.label>
+  <AJO_CopyCartES.description>ゲームソフトを複製します。</AJO_CopyCartES.description>
+  <AJO_CopyCartES.jobString>コピー中。</AJO_CopyCartES.jobString>
+  <AJO_CopyCartBG.label>Baguettrisをコピーします。</AJO_CopyCartBG.label>
+  <AJO_CopyCartBG.description>ゲームソフトを複製します。</AJO_CopyCartBG.description>
+  <AJO_CopyCartBG.jobString>コピー中。</AJO_CopyCartBG.jobString>
+  <AJO_CopyCartCB.label>Cooking Babaをコピーします。</AJO_CopyCartCB.label>
+  <AJO_CopyCartCB.description>ゲームソフトを複製します。</AJO_CopyCartCB.description>
+  <AJO_CopyCartCB.jobString>コピー中。</AJO_CopyCartCB.jobString>
+  <AJO_CopyCartPS.label>Plants Vs. Salamisをコピーします。</AJO_CopyCartPS.label>
+  <AJO_CopyCartPS.description>ゲームソフトを複製します。</AJO_CopyCartPS.description>
+  <AJO_CopyCartPS.jobString>コピー中。</AJO_CopyCartPS.jobString>
+  <AJO_CopyCartPK.label>Psycho Knotsをコピーします。</AJO_CopyCartPK.label>
+  <AJO_CopyCartPK.description>ゲームソフトを複製します。</AJO_CopyCartPK.description>
+  <AJO_CopyCartPK.jobString>コピー中。</AJO_CopyCartPK.jobString>
+  <AJO_CopyCartSP.label>Speltunkyをコピーします。</AJO_CopyCartSP.label>
+  <AJO_CopyCartSP.description>ゲームソフトを複製します。</AJO_CopyCartSP.description>
+  <AJO_CopyCartSP.jobString>コピー中。</AJO_CopyCartSP.jobString>
+  <AJO_CopyCartTZ.label>The Zimzをコピーします。</AJO_CopyCartTZ.label>
+  <AJO_CopyCartTZ.description>ゲームソフトを複製します。</AJO_CopyCartTZ.description>
+  <AJO_CopyCartTZ.jobString>コピー中。</AJO_CopyCartTZ.jobString>
+  <AJO_CopyCartTV.label>Trauma Vendorをコピーします。</AJO_CopyCartTV.label>
+  <AJO_CopyCartTV.description>ゲームソフトを複製します。</AJO_CopyCartTV.description>
+  <AJO_CopyCartTV.jobString>コピー中。</AJO_CopyCartTV.jobString>
+  <AJO_CopyCartGD.label>Glutendogsをコピーします。</AJO_CopyCartGD.label>
+  <AJO_CopyCartGD.description>ゲームソフトを複製します。</AJO_CopyCartGD.description>
+  <AJO_CopyCartGD.jobString>コピー中。</AJO_CopyCartGD.jobString>
+</LanguageData>

@@ -1,0 +1,61 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <AJO_MakeArcadeEmpty.label>ゲーム機を作ります。</AJO_MakeArcadeEmpty.label>
+  <AJO_MakeArcadeEmpty.description>ゲーム機を作ります。ソフトは入っていません。</AJO_MakeArcadeEmpty.description>
+  <AJO_MakeArcadeEmpty.jobString>ゲーム機を作っている。</AJO_MakeArcadeEmpty.jobString>
+
+  <AJO_MakeArcadeHomebrew.label>自作ゲームをインストールする</AJO_MakeArcadeHomebrew.label>
+  <AJO_MakeArcadeHomebrew.description>ゲームソフトをゲーム機に差し込みます。</AJO_MakeArcadeHomebrew.description>
+  <AJO_MakeArcadeHomebrew.jobString>ゲームを設定しています。</AJO_MakeArcadeHomebrew.jobString>
+
+  <AJO_MakeArcadeRS.label>Rum Swirledをインストールする</AJO_MakeArcadeRS.label>
+  <AJO_MakeArcadeRS.description>ゲームソフトをゲーム機に差し込みます。</AJO_MakeArcadeRS.description>
+  <AJO_MakeArcadeRS.jobString>ゲームを設定しています。</AJO_MakeArcadeRS.jobString>
+
+  <AJO_MakeArcadeMC.label>MintCraftをインストールする</AJO_MakeArcadeMC.label>
+  <AJO_MakeArcadeMC.description>ゲームソフトをゲーム機に差し込みます。</AJO_MakeArcadeMC.description>
+  <AJO_MakeArcadeMC.jobString>ゲームを設定しています。</AJO_MakeArcadeMC.jobString>
+
+  <AJO_MakeArcadeHL.label>Halva Lifeをインストールする</AJO_MakeArcadeHL.label>
+  <AJO_MakeArcadeHL.description>ゲームソフトをゲーム機に差し込みます。</AJO_MakeArcadeHL.description>
+  <AJO_MakeArcadeHL.jobString>ゲームを設定しています。</AJO_MakeArcadeHL.jobString>
+
+  <AJO_MakeArcadeES.label>Elder Sconesをインストールする</AJO_MakeArcadeES.label>
+  <AJO_MakeArcadeES.description>ゲームソフトをゲーム機に差し込みます。</AJO_MakeArcadeES.description>
+  <AJO_MakeArcadeES.jobString>ゲームを設定しています。</AJO_MakeArcadeES.jobString>
+
+  <AJO_MakeArcadeBG.label>Baguettrisをインストールする</AJO_MakeArcadeBG.label>
+  <AJO_MakeArcadeBG.description>ゲームソフトをゲーム機に差し込みます。</AJO_MakeArcadeBG.description>
+  <AJO_MakeArcadeBG.jobString>ゲームを設定しています。</AJO_MakeArcadeBG.jobString>
+
+  <AJO_MakeArcadeCB.label>Cooking Babaをインストールする</AJO_MakeArcadeCB.label>
+  <AJO_MakeArcadeCB.description>ゲームソフトをゲーム機に差し込みます。</AJO_MakeArcadeCB.description>
+  <AJO_MakeArcadeCB.jobString>ゲームを設定しています。</AJO_MakeArcadeCB.jobString>
+
+  <AJO_MakeArcadePS.label>Plants Vs. Salamisをインストールする</AJO_MakeArcadePS.label>
+  <AJO_MakeArcadePS.description>ゲームソフトをゲーム機に差し込みます。</AJO_MakeArcadePS.description>
+  <AJO_MakeArcadePS.jobString>ゲームを設定しています。</AJO_MakeArcadePS.jobString>
+
+  <AJO_MakeArcadePK.label>Psycho Knotsをインストールする</AJO_MakeArcadePK.label>
+  <AJO_MakeArcadePK.description>ゲームソフトをゲーム機に差し込みます。</AJO_MakeArcadePK.description>
+  <AJO_MakeArcadePK.jobString>ゲームを設定しています。</AJO_MakeArcadePK.jobString>
+
+  <AJO_MakeArcadeSP.label>Speltunkyをインストールする</AJO_MakeArcadeSP.label>
+  <AJO_MakeArcadeSP.description>ゲームソフトをゲーム機に差し込みます。</AJO_MakeArcadeSP.description>
+  <AJO_MakeArcadeSP.jobString>ゲームを設定しています。</AJO_MakeArcadeSP.jobString>
+
+  <AJO_MakeArcadeTZ.label>The Zimzをインストールする</AJO_MakeArcadeTZ.label>
+  <AJO_MakeArcadeTZ.description>ゲームソフトをゲーム機に差し込みます。</AJO_MakeArcadeTZ.description>
+  <AJO_MakeArcadeTZ.jobString>ゲームを設定しています。</AJO_MakeArcadeTZ.jobString>
+
+  <AJO_MakeArcadeTV.label>Trauma Vendorをインストールする</AJO_MakeArcadeTV.label>
+  <AJO_MakeArcadeTV.description>ゲームソフトをゲーム機に差し込みます。</AJO_MakeArcadeTV.description>
+  <AJO_MakeArcadeTV.jobString>ゲームを設定しています。</AJO_MakeArcadeTV.jobString>
+
+  <AJO_MakeArcadeGD.label>Glutendogsをインストールする</AJO_MakeArcadeGD.label>
+  <AJO_MakeArcadeGD.description>ゲームソフトをゲーム機に差し込みます。</AJO_MakeArcadeGD.description>
+  <AJO_MakeArcadeGD.jobString>ゲームを設定しています。</AJO_MakeArcadeGD.jobString>
+
+
+</LanguageData>

@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <!-- Furniture -->
+  <AJO_BookRack.label>本棚(小)</AJO_BookRack.label>
+  <AJO_BookRack.description>いくつかの本を置くことができる小さな本棚です。\nテーブル(執筆用)の近くに置くと、執筆速度が5％向上します。ひとつのテーブル(執筆用)に1個だけ接続できます。</AJO_BookRack.description>
+  <Blueprint_Install_AJO_BookRack.label>本棚(小)(移動先)</Blueprint_Install_AJO_BookRack.label>
+  <Blueprint_AJO_BookRack.label>本棚(小)(設計)</Blueprint_AJO_BookRack.label>
+  <Frame_AJO_BookRack.label>本棚(小)(施工)</Frame_AJO_BookRack.label>
+  <Frame_AJO_BookRack.description>いくつかの本を置くことができる小さな本棚です。\nテーブル(執筆用)の近くに置くと、執筆速度が5％向上します。ひとつのテーブル(執筆用)に1個だけ接続できます。</Frame_AJO_BookRack.description>
+  <AJO_Bookshelf.label>本棚</AJO_Bookshelf.label>
+  <AJO_Bookshelf.description>より多くの本を置くことができます。\nテーブル(執筆用)の近くに置くと、執筆速度が10％向上します。ひとつのテーブル(執筆用)に2個まで接続できます。</AJO_Bookshelf.description>
+  <Blueprint_Install_AJO_Bookshelf.label>本棚(移動先)</Blueprint_Install_AJO_Bookshelf.label>
+  <Blueprint_AJO_Bookshelf.label>本棚(設計)</Blueprint_AJO_Bookshelf.label>
+  <Frame_AJO_Bookshelf.label>本棚(施工)</Frame_AJO_Bookshelf.label>
+  <Frame_AJO_Bookshelf.description>より多くの本を置くことができます。\nテーブル(執筆用)の近くに置くと、執筆速度が10％向上します。ひとつのテーブル(執筆用)に2個まで接続できます。</Frame_AJO_Bookshelf.description>
+  <AJO_Bookcase.label>本棚(大)</AJO_Bookcase.label>
+  <AJO_Bookcase.description>とても多くの本を置くことができます。\nテーブル(執筆用)の近くに置くと、執筆速度が20％向上します。ひとつのテーブル(執筆用)に4個まで接続できます。</AJO_Bookcase.description>
+  <Blueprint_Install_AJO_Bookcase.label>本棚(大)(移動先)</Blueprint_Install_AJO_Bookcase.label>
+  <Blueprint_AJO_Bookcase.label>本棚(大)(設計)</Blueprint_AJO_Bookcase.label>
+  <Frame_AJO_Bookcase.label>本棚(大)(施工)</Frame_AJO_Bookcase.label>
+  <Frame_AJO_Bookcase.description>とても多くの本を置くことができます。\nテーブル(執筆用)の近くに置くと、執筆速度が20％向上します。ひとつのテーブル(執筆用)に4個まで接続できます。</Frame_AJO_Bookcase.description>
+  <AJO_ReadingTable.label>テーブル(読書用)</AJO_ReadingTable.label>
+  <AJO_ReadingTable.description>本を読みやすい高さに調整された小さなテーブルです。本棚の近くに置くことで入植者が本を読むことができます。</AJO_ReadingTable.description>
+  <Blueprint_Install_AJO_ReadingTable.label>テーブル(読書用)(移動先)</Blueprint_Install_AJO_ReadingTable.label>
+  <Blueprint_AJO_ReadingTable.label>テーブル(読書用)(設計)</Blueprint_AJO_ReadingTable.label>
+  <Frame_AJO_ReadingTable.label>テーブル(読書用)(施工)</Frame_AJO_ReadingTable.label>
+  <Frame_AJO_ReadingTable.description>本を読みやすい高さに調整された小さなテーブルです。本棚の近くに置くことで入植者が本を読むことができます。</Frame_AJO_ReadingTable.description>
+  <!-- Production -->
+  <AJO_WritingTable.label>テーブル(執筆用)</AJO_WritingTable.label>
+  <AJO_WritingTable.description>執筆のためのテーブルです。</AJO_WritingTable.description>
+  <Blueprint_Install_AJO_WritingTable.label>テーブル(執筆用)(移動先)</Blueprint_Install_AJO_WritingTable.label>
+  <Blueprint_AJO_WritingTable.label>テーブル(執筆用)(設計)</Blueprint_AJO_WritingTable.label>
+  <Frame_AJO_WritingTable.label>テーブル(執筆用)(施工)</Frame_AJO_WritingTable.label>
+  <Frame_AJO_WritingTable.description>執筆のためのテーブルです。</Frame_AJO_WritingTable.description>
+</LanguageData>
