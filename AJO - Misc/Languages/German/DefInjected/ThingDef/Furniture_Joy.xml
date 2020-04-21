@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <!-- Joy Tables -->
+
+  <AJO_RimColony.label>RimColony</AJO_RimColony.label>
+  <AJO_RimColony.description>RimColony ist ein Spiel über den Aufbau und die Erhaltung einer Kolonie nach einer Bruchlandung auf einer Randwelt. Einige Händler hatten einen verdrehten Sinn für Humor, der dieses Spiel mit sich brachte.</AJO_RimColony.description>
+
+
+  <!-- Furniture -->
+
+  <AJO_Dartboard.label>Dartscheibe</AJO_Dartboard.label>
+  <AJO_Dartboard.description>Ein Spiel welches oft in Pubs und Bars gespielt wird. Spieler werfen Pfeile aus der Ferne und versuchen bestimmte Bereiche auf dem Brett zu treffen. Es ist entspannend und trainiert sogar die Hand-Auge-Koordination.</AJO_Dartboard.description>
+
+
+</LanguageData>

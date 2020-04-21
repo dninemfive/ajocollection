@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PerodyneHigh.label>Perodyne</PerodyneHigh.label>
+  <PerodyneHigh.description>Perodyne ist im Blutkreislauf. Reduziert Schmerzen auf Kosten der Sinnesschwächung erheblich.</PerodyneHigh.description>
+  <PerodyneHigh.stages.0.label>Initial</PerodyneHigh.stages.0.label>
+  <PerodyneHigh.stages.1.label>Entspannt</PerodyneHigh.stages.1.label>
+  <PerodyneHigh.stages.2.label>Benebelt</PerodyneHigh.stages.2.label>
+  <PerodyneHigh.stages.3.label>Betäubt</PerodyneHigh.stages.3.label>
+  <PerodyneHigh.stages.4.label>Weggetreten</PerodyneHigh.stages.4.label>
+  <PerodyneHigh.stages.5.label>Vollrauch</PerodyneHigh.stages.5.label>
+
+
+  <!-- Perodyne addiction -->
+
+  <PerodyneTolerance.label>Perodyne-Toleranz</PerodyneTolerance.label>
+  <PerodyneTolerance.description>A built-up tolerance to perodyne. The more severe this tolerance is, the more perodyne it takes to get the same effect.</PerodyneTolerance.description>
+
+  <PerodyneAddiction.label>Perodyne-Abhängigkeit</PerodyneAddiction.label>
+  <PerodyneAddiction.description>Eine Sucht nach Perodyne. Langfristiges Vorhandensein neurologischer Anpassungen auf zellulärer Ebene von Perodyne haben dafür gesorgt, dass das Gehirn ohne das Medikament nicht mehr richtig funktionieren kann.\nEine längere Abstinenz zwingt das Gehirn jedoch dazu, sich wieder an seinen normalen Zustand anzupassen und die Sucht zu lösen.</PerodyneAddiction.description>
+  <PerodyneAddiction.stages.1.label>Entzug</PerodyneAddiction.stages.1.label>
+
+
+</LanguageData>

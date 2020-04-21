@@ -1,0 +1,23 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <D9AJO_Chandelier_1x.label>Kleiner Kronleuchter</D9AJO_Chandelier_1x.label>
+  <D9AJO_Chandelier_1x.description>Ein einfacher kleiner Kronleuchter mit einer Glasschale darunter. Kann über die meisten Gegenstände gehängt werden.</D9AJO_Chandelier_1x.description>
+  <D9AJO_Chandelier_1x_Blueprint.label>Kleiner Kronleuchter (Entwurf)</D9AJO_Chandelier_1x_Blueprint.label>
+  <D9AJO_Chandelier_1x_Frame.label>Kleiner Kronleuchter (im Bau)</D9AJO_Chandelier_1x_Frame.label>
+  <D9AJO_Chandelier_1x_Frame.description>Ein einfacher kleiner Kronleuchter mit einer Glasschale darunter. Kann über die meisten Gegenstände gehängt werden.</D9AJO_Chandelier_1x_Frame.description>
+
+  <D9AJO_Chandelier_2x.label>Kronleuchter</D9AJO_Chandelier_2x.label>
+  <D9AJO_Chandelier_2x.description>Ein einfacher Kronleuchter mit einer Glasschale darunter. Kann über die meisten Gegenstände gehängt werden.</D9AJO_Chandelier_2x.description>
+  <D9AJO_Chandelier_2x_Blueprint.label>Kronleuchter (Entwurf)</D9AJO_Chandelier_2x_Blueprint.label>
+  <D9AJO_Chandelier_2x_Frame.label>Kronleuchter (im Bau)</D9AJO_Chandelier_2x_Frame.label>
+  <D9AJO_Chandelier_2x_Frame.description>Ein einfacher Kronleuchter mit einer Glasschale darunter. Kann über die meisten Gegenstände gehängt werden.</D9AJO_Chandelier_2x_Frame.description>
+
+  <D9AJO_Chandelier_3x.label>Großer Kronleuchter</D9AJO_Chandelier_3x.label>
+  <D9AJO_Chandelier_3x.description>Ein einfacher großer Kronleuchter mit einer Glasschale darunter. Kann über die meisten Gegenstände gehängt werden.</D9AJO_Chandelier_3x.description>
+  <D9AJO_Chandelier_3x_Blueprint.label>Großer Kronleuchter (Entwurf)</D9AJO_Chandelier_3x_Blueprint.label>
+  <D9AJO_Chandelier_3x_Frame.label>Großer Kronleuchter (im Bau)</D9AJO_Chandelier_3x_Frame.label>
+  <D9AJO_Chandelier_3x_Frame.description>Ein einfacher großer Kronleuchter mit einer Glasschale darunter. Kann über die meisten Gegenstände gehängt werden.</D9AJO_Chandelier_3x_Frame.description>
+
+
+</LanguageData>

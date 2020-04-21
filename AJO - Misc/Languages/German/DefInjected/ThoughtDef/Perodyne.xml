@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+
+  <PerodyneHigh.stages.0.label>Initial</PerodyneHigh.stages.0.label>
+  <PerodyneHigh.stages.0.description>Sollte nicht erscheinen.</PerodyneHigh.stages.0.description>
+  <PerodyneHigh.stages.1.label>Entspannt</PerodyneHigh.stages.1.label>
+  <PerodyneHigh.stages.1.description>Ich fühle mich jetzt etwas entspannter.</PerodyneHigh.stages.1.description>
+  <PerodyneHigh.stages.2.label>Benebelt</PerodyneHigh.stages.2.label>
+  <PerodyneHigh.stages.2.description>Alles fühlt sich besser an.</PerodyneHigh.stages.2.description>
+  <PerodyneHigh.stages.3.label>Betäubt</PerodyneHigh.stages.3.label>
+  <PerodyneHigh.stages.3.description>Es ist schwer, sich nicht gut zu fühlen, alles kitzelt!</PerodyneHigh.stages.3.description>
+  <PerodyneHigh.stages.4.label>Weggetreten</PerodyneHigh.stages.4.label>
+  <PerodyneHigh.stages.4.description>Ich fühle mich wie unter Wasser. Hier unten kann mich nichts stören.</PerodyneHigh.stages.4.description>
+  <PerodyneHigh.stages.5.label>Vollrausch</PerodyneHigh.stages.5.label>
+  <PerodyneHigh.stages.5.description>Hehhh...</PerodyneHigh.stages.5.description>
+
+
+  <!-- Perodyne addiction -->
+
+  <PerodyneWithdrawal.stages.1.label>Perodyne-Entzug</PerodyneWithdrawal.stages.1.label>
+  <PerodyneWithdrawal.stages.1.description>Ich wünschte wirklich, ich könnte mich betäuben.</PerodyneWithdrawal.stages.1.description>
+
+
+</LanguageData>
