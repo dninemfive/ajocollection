@@ -3,9 +3,7 @@
 
 ![modVersion](https://img.shields.io/badge/Misc-1.0.0-brightgreen.svg)
 ![modVersion](https://img.shields.io/badge/Paintings-1.0.0-brightgreen.svg)
-
 ![modVersion](https://img.shields.io/badge/Arcades-0.0.0-orange.svg)
-
 ![modVersion](https://img.shields.io/badge/Bonsai-0.0.0-red.svg)
 ![modVersion](https://img.shields.io/badge/Plushies-0.0.0-red.svg)
 ![modVersion](https://img.shields.io/badge/Computers-0.0.0-red.svg)
