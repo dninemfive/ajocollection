@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+	<Operation Class="D9Framework.PatchOperationFindPackage">
+		<packageIds><li>dninemfive.ajo.paintings</li></packageIds>
+		<match Class="PatchOperationAdd">
+			<xpath>/Defs/ThingDef[defName="AJO_Perodyne"]/costList</xpath>
+			<value>
+				<costList>
+					<!-- Actually, use Dreamroot from Misc Mats -->
+					<AJO_RainbowPetals>2</AJO_RainbowPetals>
+				</costList>
+			</value>
+		</match>
+	</Operation>
+</Patch>
