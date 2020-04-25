@@ -11,7 +11,9 @@
                         <SeedsPlease.SeedDef ParentName="SeedBase">
                             <defName>AJO_SeedSpectago</defName>
                             <label>spectago seeds</label>
-                            <plant>AJO_PlantOutdoorSpectago</plant>
+                            <sources>
+								<li>AJO_PlantOutdoorSpectago</li>
+							</sources>
                             <graphicData>
                                 <texPath>Cupro/Item/Material/Seeds/SeedSpectago</texPath>
                             </graphicData>
