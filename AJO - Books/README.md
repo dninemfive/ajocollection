@@ -1,0 +1,1 @@
+![version](https://img.shields.io/badge/RimWorld-1.1-brightgreen.svg) ![version](https://img.shields.io/badge/Status-Not%20started-red.svg)
