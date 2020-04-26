@@ -1,1 +1,2 @@
-![version](https://img.shields.io/badge/RimWorld-1.1-brightgreen.svg) ![version](https://img.shields.io/badge/Status-In%20progress-orange.svg)
+# Additional Joy Objects Lite
+https://steamcommunity.com/sharedfiles/filedetails/?id=1602579533
