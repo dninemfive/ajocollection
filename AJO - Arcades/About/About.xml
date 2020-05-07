@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
-  <name>Additional Joy Objects Lite</name>
+  <name>Additional Joy Objects - Arcades</name>
   <author>cuproPanda, updated by dninemfive</author>
-  <supportedVersions><li>1.0</li></supportedVersions>
-  <description>Adds new objects and activities which bring joy to colonists, but not books.</description>
+  <supportedVersions><li>1.1</li></supportedVersions>
+  <description>Adds arcade cabinets, cartridges, and a unique way of making games.</description>
 </ModMetaData>
