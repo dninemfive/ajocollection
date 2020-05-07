@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <ModMetaData>
   <name>Additional Joy Objects - Arcades</name>
-  <author>cuproPanda, updated by dninemfive</author>
+  <author>dninemfive</author>
   <supportedVersions><li>1.1</li></supportedVersions>
-  <description>Adds arcade cabinets, cartridges, and a unique way of making games.</description>
+  <description>Adds arcade cabinets, cartridges, and a unique way of making games. Rewritten from scratch and retextured thanks to Higgs!\n\nInspired by the original arcade cabinets from Additional Joy Objects, by cuproPanda.</description>
 </ModMetaData>
