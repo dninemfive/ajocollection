@@ -9,6 +9,9 @@
 ![modVersion](https://img.shields.io/badge/Computers-0.0.0-red.svg)
 ![modVersion](https://img.shields.io/badge/Books-0.0.0-red.svg)
 
+[![steamlink](https://img.shields.io/steam/views/2067482230?color=blue&label=Workshop&logo=steam)](https://steamcommunity.com/workshop/filedetails/?id=2067482230)
+![githubdls](https://img.shields.io/github/downloads/dninemfive/ajocollection/total?color=blue&label=Github&logo=github)
+
 A modularized and updated version of Additional Joy Objects.
 
 ## License notes
