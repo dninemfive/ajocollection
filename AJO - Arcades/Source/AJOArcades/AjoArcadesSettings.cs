@@ -12,6 +12,5 @@ namespace AJOArcades
     class AjoArcadesSettings : ModSettings
     {
         public static Dictionary<SkillDef, Color> skillColors;
-        public static Dictionary<ArcadeGenreDef, Color> genreColors;
     }
 }

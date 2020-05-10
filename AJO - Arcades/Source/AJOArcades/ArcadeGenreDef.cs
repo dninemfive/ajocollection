@@ -11,8 +11,9 @@ namespace AJOArcades
     public class ArcadeGenreDef : Def
     {
         List<SkillWeight> requiredSkills;
-        RulePackDef gameNameGenerator;
-        RulePackDef gameDescGenerator;
+        public RulePackDef gameNameGenerator;
+        public RulePackDef gameDescGenerator;
+        public ColorGenerator gameColorGenerator;
     }
     public class SkillWeight
     {

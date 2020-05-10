@@ -51,6 +51,7 @@
     <Compile Include="AjoArcadesSettings.cs" />
     <Compile Include="ArcadeGenreDef.cs" />
     <Compile Include="Building_Arcade.cs" />
+    <Compile Include="CompCartridge.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
