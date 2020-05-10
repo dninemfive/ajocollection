@@ -1,1 +1,1 @@
-![version](https://img.shields.io/badge/RimWorld-1.1-brightgreen.svg) ![version](https://img.shields.io/badge/Status-Released-brightgreen.svg)
+![version](https://img.shields.io/badge/RimWorld-1.1-brightgreen.svg) ![version](https://img.shields.io/badge/Status-Released-brightgreen.svg) [![steamlink](https://raster.shields.io/steam/downloads/2067489184.png?color=blue&label=Workshop&logo=steam)](https://steamcommunity.com/sharedfiles/filedetails/?id=2067489184)
