@@ -1,19 +1,23 @@
 <?xml version="1.0" encoding="utf-8" ?>
 <Defs>
-
 	<ThingDef ParentName="ResourceBase">
 		<defName>AJO_PaintingSupplies</defName>
 		<label>painting supplies</label>
 		<description>A large assortment of brushes and paints, perfect for any artist.</description>
 		<graphicData>
-			<texPath>Cupro/Item/Material/PaintingSupplies</texPath>
+			<texPath>Items/Supplies/PaintingSupplies</texPath>
 			<graphicClass>Graphic_Single</graphicClass>
+			<shaderType>CutoutComplex</shaderType>
 		</graphicData>
 		<soundInteract>Wood_Drop</soundInteract>
 		<soundDrop>Wood_Drop</soundDrop>
 		<useHitPoints>true</useHitPoints>
+		<!-- To allow using modded wood, esp. when mods remove normal wood logs -->
+		<stuffCategories><li>Woody</li></stuffCategories>
+		<costStuffCount>2</costStuffCount>
 		<statBases>
-			<MarketValue>15</MarketValue>
+			<!-- somewhat profitable to produce -->
+			<MarketValue>28</MarketValue>
 			<Mass>0.2</Mass>
 			<MaxHitPoints>100</MaxHitPoints>
 			<DeteriorationRate>4</DeteriorationRate>
@@ -26,13 +30,34 @@
 			<li>Exotic</li>
 			<li>AJO_JoyItem</li>
 		</tradeTags>
-		<stuffProps>
-			<categories>
-				<li>AJO_Paint</li>
-			</categories>
-		</stuffProps>
 	</ThingDef>
-
+	<ThingDef ParentName="ResourceBase">
+		<defName>AJO_Paint</defName>
+		<label>paint</label>
+		<description>Colorful paint in a variety of colors, made from spectago petals.</description>
+		<graphicData>
+			<texPath>Items/FixPathError/Paint</texPath>
+			<graphicClass>Graphic_StackCount</graphicClass>
+		</graphicData>
+		<soundInteract>Wood_Drop</soundInteract>
+		<soundDrop>Wood_Drop</soundDrop>
+		<useHitPoints>true</useHitPoints>
+		<statBases>
+			<!-- slightly profitable to produce -->
+			<MarketValue>18</MarketValue>
+			<Mass>0.2</Mass>
+			<MaxHitPoints>100</MaxHitPoints>
+			<DeteriorationRate>1</DeteriorationRate>
+		</statBases>
+		<stackLimit>75</stackLimit>
+		<thingCategories>
+			<li>Manufactured</li>
+		</thingCategories>
+		<tradeTags>
+			<li>Exotic</li>
+			<li>AJO_JoyItem</li>
+		</tradeTags>
+	</ThingDef>
 </Defs>
 
 

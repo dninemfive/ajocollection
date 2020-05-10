@@ -105,6 +105,7 @@
 			<WoodLog>15</WoodLog>
 		</costList>
 		<altitudeLayer>Building</altitudeLayer>
+		<defaultPlacingRot>South</defaultPlacingRot>
 		<fillPercent>0.5</fillPercent>
 		<useHitPoints>true</useHitPoints>
 		<statBases>
@@ -179,7 +180,6 @@
 		</graphicData>
 		<stuffCategories>
 			<li>Fabric</li>
-			<li>AJO_Paint</li>
 		</stuffCategories>
 	</ThingDef>
 </Defs>

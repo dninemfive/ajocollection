@@ -1,6 +1,11 @@
 ﻿<?xml version="1.0" encoding="utf-8" ?>
 <Defs>
 
+	<ResearchTabDef>
+		<defName>AJO_rTab</defName>
+		<label>Additional Joy Objects</label>
+	</ResearchTabDef>
+
 	<ResearchProjectDef>
 		<defName>AJO_TemperaPainting</defName>
 		<label>Tempera paint</label>
