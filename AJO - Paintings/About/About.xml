@@ -3,7 +3,7 @@
   <name>Additional Joy Objects - Paintings</name>
   <author>cuproPanda, updated by dninemfive</author>
   <packageId>dninemfive.ajo.paintings</packageId>
-  <supportedVersions><li>1.1</li></supportedVersions>
+  <supportedVersions><li>1.1</li><li>1.2</li></supportedVersions>
   <description>Adds paintings and an easel to the game. Paintings are works of art, and the easel is used to make them or just to doodle.</description>
   <modDependencies>
 	<li>

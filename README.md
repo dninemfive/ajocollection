@@ -1,5 +1,5 @@
 # Additional Joy Objects Collection
-![version](https://img.shields.io/badge/RimWorld-1.1-brightgreen.svg) ![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)
+![version](https://img.shields.io/badge/RimWorld-1.2-brightgreen.svg) ![license](https://img.shields.io/badge/License-MIT-brightgreen.svg)
 
 ![modVersion](https://img.shields.io/badge/Misc-1.0.1-brightgreen.svg)
 ![modVersion](https://img.shields.io/badge/Paintings-1.0.2-brightgreen.svg)
