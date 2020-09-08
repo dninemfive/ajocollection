@@ -8,16 +8,16 @@ using Verse;
 
 namespace AJOArcades
 {
-    public class CompArcadeCartridge : ThingComp //: CompSlottable
+    public class CompArcadeCartridge : ThingComp
     {
-        public ArcadeGenreDef genre;
+        public ArcadeGenreDef Genre;
         public string name = null, desc = null;
         private Color? color = null;
         public Color Color
         {
             get
             {
-                if (color == null) color = genre.gameColorGenerator.NewRandomizedColor();
+                if (color == null) color = Genre.gameColorGenerator.NewRandomizedColor();
                 return (Color)color;
             }
         }
@@ -27,7 +27,7 @@ namespace AJOArcades
             base.PostSpawnSetup(respawningAfterLoad);
             if (name == null) ; // generate name from genre name generator
             if (desc == null) ; // generate name from genre desc generator
-            if (color == null) color = genre.gameColorGenerator.NewRandomizedColor();
+            if (color == null) color = Genre.gameColorGenerator.NewRandomizedColor();
         }
     }
 }
