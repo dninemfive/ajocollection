@@ -14,7 +14,7 @@ namespace AJOArcades
         public CompQuality Quality => base.GetComp<CompQuality>();
         public ArcadeGenreDef Genre => Cartridge?.Genre;
         public CompArcadeCartridge Cartridge => CartridgeSlot.First()?.TryGetComp<CompArcadeCartridge>();
-        public ThingOwner<Thing> CartridgeSlot;
+        public ThingOwner<Thing> CartridgeSlot = new ThingOwner<Thing>();
 
         public List<SkillWeight> skillWeights;
 
@@ -27,7 +27,7 @@ namespace AJOArcades
         {
             get
             {
-                // Want to see if I can avoid creating a helper struct here. First three floats per array are HSV; last one is the weight
+                // First three floats per array are HSV; last one is the weight
                 List<float[]> HSVWs = new List<float[]>();
                 foreach (SkillWeight skw in skillWeights)
                 {
