@@ -39,8 +39,16 @@ namespace AJOArcades
             base.ProcessInput(ev);
             List<FloatMenuOption> options = new List<FloatMenuOption>();
             tmpOwnedCartridges.Clear();
-            // HaulableEver is just used to narrow down enumerated items as much as possible, if there's a way to get even fewer things without hardcoding the def that would be great
+            // HaulableEver is just used to narrow down enumerated items as much as possible, if there's a way to get even fewer things without hardcoding the def that would be great            
             tmpOwnedCartridges = Arcade.Map.listerThings.ThingsInGroup(ThingRequestGroup.HaulableEver).Where(x => x.TryGetComp<CompArcadeCartridge>() != null).ToList();
+            // Handling the case where the player has too many cartridges. Doesn't handle them having too many cartridges and none of them are near the arcade, but at least I'm not going to fill their screen with options
+            if (tmpOwnedCartridges.Count > AjoArcadesSettings.maxCartridgesBeforeSelectInRadius)
+            {
+                Messages.Message("D9AJO_TooManyCartridges".Translate(), Arcade, MessageTypeDefOf.CautionInput);
+                tmpOwnedCartridges = Arcade.Map.listerThings.ThingsInGroup(ThingRequestGroup.HaulableEver).Where(
+                    x => x.Position.InHorDistOf(Arcade.Position, AjoArcadesSettings.maxDistanceForCartridgesWhenTooMany) 
+                      && x.TryGetComp<CompArcadeCartridge>() != null).ToList();
+            }
             tmpOwnedCartridges.SortBy(x => x.Label);
             foreach(Thing cart in tmpOwnedCartridges)
             {
@@ -49,6 +57,8 @@ namespace AJOArcades
                     // change target cart on arcade; assign job to change, if possible
                 }));
             }
+            Find.WindowStack.Add(new FloatMenu(options));
         }
+
     }
 }

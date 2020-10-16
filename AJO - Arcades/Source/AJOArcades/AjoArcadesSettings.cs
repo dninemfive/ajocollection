@@ -12,5 +12,7 @@ namespace AJOArcades
     class AjoArcadesSettings : ModSettings
     {
         public static Dictionary<SkillDef, Color> skillColors;
+        public static int maxCartridgesBeforeSelectInRadius = 100;
+        public static float maxDistanceForCartridgesWhenTooMany = 15f;
     }
 }

@@ -15,6 +15,8 @@ namespace AJOArcades
 
         public ArcadeGenreDef Genre;
         public TaggedString Name = null, Desc = null;
+        public List<SkillWeight> skillWeights;
+
         private Color? color = null;
         public Color Color
         {
