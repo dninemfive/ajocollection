@@ -42,7 +42,15 @@ namespace AJOBonsai
 
         public override Job JobOnCell(Pawn pawn, IntVec3 cell, bool forced = false)
         {
-            return base.JobOnCell(pawn, cell, forced);
+            Job job = JobMaker.MakeJob(AJOBonsaiDefOf.AJO_BonsaiMaintain);
+            job.targetA = FirstMaintainableBonsaiInCell(cell, pawn.Map);
+            return job;
+        }
+
+        // TODO: check forbidden?
+        static Thing FirstMaintainableBonsaiInCell(IntVec3 cell, Map map)
+        {
+            return cell.GetThingList(map).Where(x => (x.TryGetComp<CompBonsai>()?.ShouldMaintain ?? false)).First();
         }
     }
 }
