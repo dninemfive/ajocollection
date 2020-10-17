@@ -29,14 +29,17 @@ namespace AJOBonsai
                 _maintenance = Mathf.Clamp(value, 0f, Props.maxMaintenance);
             }
         }
+        public bool ShouldMaintain { get; private set; }
 
         public override void CompTick()
         {
             base.CompTick();
             if (IsCheapIntervalTick(Props.tickInterval))
             {
-                Maintenance -= Props.maintenanceFallPerDay * (Props.tickInterval / (float)GenDate.TicksPerDay);
-                if (Rand.Value < Props.loseQualityChanceFactor.Evaluate(Maintenance))
+                Maintenance -= Props.maintenanceFallPerDay * Props.maintenanceLossFactor.Evaluate((int)Quality.Quality) * (Props.tickInterval / (float)GenDate.TicksPerDay);
+                float loseQualityChance = Props.loseQualityChanceFactor.Evaluate(Maintenance);
+                ShouldMaintain = loseQualityChance > 0;
+                if (Rand.Value < loseQualityChance)
                 {
                     // TODO: add some way to cheaply set the internal quality. Currently, this will completely reset the bonsai's CompArt, which is not desired.
                     Quality.SetQuality((QualityCategory)Mathf.Max((int)Quality.Quality - 1, 0), ArtGenerationContext.Colony);
@@ -50,6 +53,7 @@ namespace AJOBonsai
 #pragma warning disable CS0649
         public int tickInterval = 2500;
         public float maxMaintenance = 1f, maintenanceFallPerDay = 0.9f;
+        // TODO: make some of these curves into stats so players can see them
         /// <summary>
         /// Chance to lose a quality level when the bonsai ticks based on its current level of maintenance. By default, this increases the lower maintenance is.
         /// </summary>
@@ -59,7 +63,7 @@ namespace AJOBonsai
             new CurvePoint(0.25f, 0.75f),
             new CurvePoint(0.5f, 0f),
             new CurvePoint(1f, 0f)
-        };
+        };        
         /// <summary>
         /// Chance to gain quality when trimmed based on its current level of maintenance. By default, this increases with higher maintenance.
         /// </summary>
@@ -69,6 +73,16 @@ namespace AJOBonsai
             new CurvePoint(0.5f, 1f),
             new CurvePoint(0.75f, 1.25f),
             new CurvePoint(1f, 2f)
+        };
+        /// <summary>
+        /// Maintenance loss modifier from bonsai quality; higher qualities are harder to maintain.
+        /// </summary>
+        public SimpleCurve maintenanceLossFactor = new SimpleCurve
+        {
+            new CurvePoint(0, 0f),
+            new CurvePoint(1, 1f),
+            new CurvePoint(3, 2f),
+            new CurvePoint(6, 4f)
         };
 #pragma warning restore CS0649
         public CompProperties_Bonsai()
