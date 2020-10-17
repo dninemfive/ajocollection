@@ -5,4 +5,15 @@
   <supportedVersions><li>1.2</li></supportedVersions>
   <packageId>dninemfive.ajo.bonsai</packageId>
   <description>Adds bonsai trees which can be purchased from traders or crafted. They require regular maintenance but in exchange provide beauty and a meditative work type for artists and growers.</description>
+  <loadAfter>
+	<li>dninemfive.d9framework</li>
+  </loadAfter>
+  <modDependencies>
+	<li>
+		<displayName>D9 Framework</displayName>
+		<packageId>dninemfive.d9framework</packageId>
+		<downloadUrl>https://github.com/dninemfive/d9framework/releases</downloadUrl>
+		<steamWorkshopUrl>steam://url/CommunityFilePage/2037445541</steamWorkshopUrl>
+	</li>
+  </modDependencies>
 </ModMetaData>
