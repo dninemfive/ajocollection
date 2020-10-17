@@ -42,7 +42,7 @@ namespace AJOBonsai
 
         public override Job JobOnCell(Pawn pawn, IntVec3 cell, bool forced = false)
         {
-            Job job = JobMaker.MakeJob(AJOBonsaiDefOf.AJO_BonsaiMaintain);
+            Job job = JobMaker.MakeJob(AJOBonsaiDefOf.D9AJO_J_MaintainBonsai);
             job.targetA = FirstMaintainableBonsaiInCell(cell, pawn.Map);
             return job;
         }

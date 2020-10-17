@@ -47,6 +47,11 @@ namespace AJOBonsai
                 }                
             }
         }
+
+        public void Maintain()
+        {
+            Maintenance = Props.maxMaintenance;
+        }
     }
     public class CompProperties_Bonsai : CompProperties
     {
