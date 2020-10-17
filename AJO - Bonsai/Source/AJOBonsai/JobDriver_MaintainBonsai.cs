@@ -9,7 +9,7 @@ using RimWorld;
 
 namespace AJOBonsai
 {
-    public class JobDriver_MaintainBonsai : JobDriver_PlantWork
+    public class JobDriver_MaintainBonsai : JobDriver
     {
         public override bool TryMakePreToilReservations(bool errorOnFailed)
         {
@@ -17,20 +17,25 @@ namespace AJOBonsai
             return target.IsValid && base.pawn.Reserve(target, job);
         }
 
-        protected override void Init()
+        protected override IEnumerable<Toil> MakeNewToils()
         {
-            base.xpPerTick = SkillTuning.XpPerTickGrowing * 1.2f; // TODO: mod settings to tweak this value
-        }
-
-        protected override Toil PlantWorkDoneToil()
-        {
-            Toil toil = new Toil();
-            toil.initAction = delegate
+            // base.xpPerTick = SkillTuning.XpPerTickGrowing * 1.2f; // TODO: mod settings to tweak this value
+            // taken from JobDriver_PlantWork: validate current jobs
+            yield return Toils_JobTransforms.MoveCurrentTargetIntoQueue(TargetIndex.A);
+            Toil initExtractTargetFromQueue = Toils_JobTransforms.ClearDespawnedNullOrForbiddenQueuedTargets(TargetIndex.A);
+            yield return initExtractTargetFromQueue;
+            yield return Toils_JobTransforms.SucceedOnNoTargetInQueue(TargetIndex.A);
+            yield return Toils_JobTransforms.ExtractNextTargetFromQueue(TargetIndex.A, true);
+            // go to plant
+            yield return Toils_Goto.GotoThing(TargetIndex.A, PathEndMode.Touch).JumpIfDespawnedOrNullOrForbidden(TargetIndex.A, initExtractTargetFromQueue);
+            // reset bonsai maintenance
+            Toil toilMaintain = new Toil();
+            toilMaintain.initAction = delegate
             {
-                toil.actor.CurJob.targetA.Thing.TryGetComp<CompBonsai>()?.Maintain();
+                toilMaintain.actor.CurJob.targetA.Thing.TryGetComp<CompBonsai>()?.Maintain();
             };
-            toil.defaultCompleteMode = ToilCompleteMode.Instant;
-            return toil;
+            toilMaintain.defaultCompleteMode = ToilCompleteMode.Instant;
+            yield return toilMaintain;
         }
     }
 }
