@@ -12,7 +12,7 @@
 [![steamlink](https://img.shields.io/steam/views/2067482230?color=blue&label=Workshop&logo=steam)](https://steamcommunity.com/workshop/filedetails/?id=2067482230)
 ![githubdls](https://img.shields.io/github/downloads/dninemfive/ajocollection/total?color=blue&label=Github&logo=github)
 
-A modularized and updated version of Additional Joy Objects. See each folder for a more detailed readme.
+A modularized and updated version of Additional Joy Objects. See each folder for more details.
 
 ## License notes
 The original Additional Joy Objects was placed under a CC0 license by cuproPanda, essentially meaning they forwent all copyrights on the project.
