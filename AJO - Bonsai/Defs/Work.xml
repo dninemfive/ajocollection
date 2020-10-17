@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+	<WorkGiverDef>
+		<defName>D9AJO_WG_MaintainBonsai</defName>
+		<label>tend bonsai</label>
+		<giverClass>AJOBonsai.WorkGiver_MaintainBonsai</giverClass>
+		<workType>Growing</workType>
+		<priorityInType>25</priorityInType>
+		<verb>tend</verb>
+		<gerund>tending</gerund>
+		<scanThings>false</scanThings>
+		<scanCells>true</scanCells>
+		<requiredCapacities>
+		  <li>Manipulation</li>
+		</requiredCapacities>
+	</WorkGiverDef>
+	<JobDef>
+		<defName>D9AJO_J_MaintainBonsai</defName>
+		<driverClass>AJOBonsai.JobDriver_MaintainBonsai</driverClass>
+		<reportString>tending TargetA.</reportString>
+		<allowOpportunisticPrefix>true</allowOpportunisticPrefix>
+	</JobDef>
+</Defs>
