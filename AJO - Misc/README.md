@@ -5,7 +5,7 @@ Mod originally by Cupro, updated to ~~B19~~ ~~1.0~~ ~~1.1~~ 1.2 by dninemfive wi
 
 This mod adds in miscellaneous small features from the original mod - darts, RimColony, chandeliers, pleasure cruisers, and Perodyne.
 
-Requires [D9 Framework.](https://github.com/dninemfive/d9framework/releases)
+Requires [D9 Framework](https://github.com/dninemfive/d9framework/releases).
 
 ## Details
 - Two new recreation buildings are added: RimColony, a simple tabletop game, and a dartboard which can be hung on a wall.
