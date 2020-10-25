@@ -52,5 +52,12 @@ namespace AJOArcades
             return runningNumerator / runningDenominator;
         }
         #endregion color
+        public override string GetInspectString()
+        {
+            if (Cartridge == null) return base.GetInspectString();
+            return "D9AJO_ArcadeCartridgeName".Translate(Cartridge.Name) + "\n"
+                 + "D9AJO_ArcadeQualityAndGenreDesc".Translate(Cartridge.Quality.Quality.ToString(), Cartridge.Genre.label) + "\n"
+                 + base.GetInspectString();
+        }
     }
 }

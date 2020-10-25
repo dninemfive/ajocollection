@@ -13,6 +13,7 @@ namespace AJOArcades
     {
         private static HashSet<string> existingNames = new HashSet<string>();
 
+        public CompQuality Quality => parent.GetComp<CompQuality>();
         public ArcadeGenreDef Genre;
         public TaggedString Name = null, Desc = null;
         public List<SkillWeight> skillWeights;
@@ -34,6 +35,11 @@ namespace AJOArcades
             existingNames.Add(Name);
             if (Desc == null) Desc = TaleReference.Taleless.GenerateText(TextGenerationPurpose.ArtDescription, Genre.gameDescGenerator); // generate name from genre desc generator
             if (color == null) color = Genre.gameColorGenerator.NewRandomizedColor();
+        }
+
+        public override string CompInspectStringExtra()
+        {
+            return "D9AJO_ArcadeQualityAndGenreDesc".Translate(Quality?.Quality.ToString(), Genre.label);
         }
     }
 }
