@@ -71,6 +71,7 @@
 			<WorkToBuild>300</WorkToBuild>
 			<Mass>7</Mass>
 			<Beauty>20</Beauty>
+			<!--MarketValue>75</MarketValue-->
 		</statBases>
 		<designationCategory />
 		<tradeTags>
@@ -80,6 +81,10 @@
 		<building>
 			<joyKind>Gaming_Cerebral</joyKind>
 		</building>
+		<costList>
+			<WoodLog>30</WoodLog>
+			<Cloth>5</Cloth>
+		</costList>
 	</ThingDef>
 
 
